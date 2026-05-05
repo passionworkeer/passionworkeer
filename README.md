@@ -80,12 +80,3 @@ Built a multimodal AI content generation system for cross-border e-commerce visu
 `LangChain` `LangGraph` `Multi-Agent` `RAG` `LoRA` `MCP` `BM25` `WebSocket` `Prompt Engineering`
 
 ---
-
-### 📊 Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=passionworkeer&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&layout=compact&theme=github_dark&hide_border=true"/>
-
-</div>
