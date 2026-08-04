@@ -104,7 +104,7 @@ A university-industry project focused on evaluating and improving AI Coding Agen
 
 ## Experience
 
-### AI Product Manager Intern · Banana in `2026.07 – present`
+### AI Product Manager Intern · Banana in `2026.05 – present`
 
 Working on the productization of AI across customer service, enterprise workflows, knowledge systems, and creative production.
 
