@@ -116,6 +116,22 @@ A Claude Code skill prototype for turning a high-level requirement into a struct
 
 ---
 
+## Contribution Trail
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/passionworkeer/passionworkeer/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/passionworkeer/passionworkeer/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated contribution graph" src="https://raw.githubusercontent.com/passionworkeer/passionworkeer/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<sub>Generated daily from my public GitHub contribution graph.</sub>
+
+</div>
+
+---
+
 ## Experience
 
 ### AI Product Manager Intern · Banana in `2026.05 – present`
