@@ -2,7 +2,7 @@
 
 # Jianjun Wang
 
-**AI-native Product Manager · Agent Engineer · Data Science @ Shenzhen Polytechnic University**
+**AI-native Product Manager · Agent Engineer · Data Science @ Shenzhen Technology University**
 
 I turn ambiguous business problems into AI systems that can reason, act, verify, and improve.
 
@@ -22,7 +22,7 @@ I work at the intersection of **product judgment, Agent systems, and engineering
 - AI Product Manager Intern at Banana in, working on enterprise AI, intelligent customer service, workflow automation, knowledge systems, and visual AIGC
 - Able to move from business discovery to PRDs, domain models, data taxonomies, Agent/RAG workflows, evaluation systems, and working prototypes
 - Interested in **AI-native products, Agent engineering, FDE-style delivery, multi-agent reliability, and long-term memory**
-- Studying Data Science and Big Data Technology at Shenzhen Polytechnic University
+- Studying Data Science and Big Data Technology at Shenzhen Technology University
 
 My usual working loop is:
 
