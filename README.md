@@ -167,7 +167,7 @@ Built a multimodal AI content-generation system for cross-border e-commerce visu
 | 6th Huashu Cup National Math Modeling Contest — **National 1st Prize** | Team Lead | 2025 |
 | 15th Zhengda Cup National Market Survey & Analysis Contest — **Provincial 1st Prize (Guangdong)**, 282k students | Team Member | 2025 |
 
-<sub>Award names verified against official contest sites on 2026-08-17. 中文全名:第二届星瀚杯"全国大学生法律AI应用"创新挑战赛 全国八强 · 2026 AI 先锋未来人才大赛 全国百强 · 抖音 AI 创变者计划 2026 黑客松联赛 赛道三二等奖 · 2025 高教社杯全国大学生数学建模竞赛 广东省一等奖 · 第六届"华数杯"全国大学生数学建模竞赛 全国一等奖 · "正大杯"第十五届全国大学生市场调查与分析大赛 广东省一等奖</sub>
+<sub>Award names verified against official contest sites on 2026-08-17.</sub>
 
 ---
 
