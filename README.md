@@ -70,25 +70,27 @@ A local-first shared-memory runtime that lets Claude Code, Codex, Cursor, Claude
 
 `Node.js` `Python` `MCP` `SQLite` `BM25` `RAG` `Local-first AI`
 
-### [Cross-file Dependency Analysis Benchmark](https://github.com/passionworkeer/tengxun_open)
+### Code Knowledge Base & Agent Governance — Tencent × SZDT joint program `private repo`
 
-An evaluation and experiment suite for cross-file dependency analysis on real repositories, comparing prompt engineering, retrieval, and domain adaptation.
+An evaluation and governance suite for cross-file dependency analysis on real repositories, comparing prompt engineering, retrieval, and domain adaptation.
 
 - manually reviewed 54-case evaluation set with strict scoring audits
 - systematic comparison of baseline, PE, RAG, LoRA, and combined strategies
 - AST-aware retrieval, bad-case diagnosis, ablation studies, and reproducible reports
-- continuous metrics for dependency quality instead of a single binary pass/fail result
+- trace-driven MCP tool governance: cross-file analysis F1 0.28 → 0.61
 
-`Python` `AST` `RAG` `LoRA` `LLM Evaluation` `Experiment Design`
+`Python` `AST` `RAG` `LoRA` `MCP` `LLM Evaluation` `Tree-sitter`
 
-### [TwinBuddy](https://github.com/passionworkeer/twinbuddy)
+> Repo kept private per collaboration terms. Live write-up: [resume.wangjianjun.xyz](https://resume.wangjianjun.xyz) → Work → RepoMind.
+
+### [TwinBuddy / 拼途旅行](https://github.com/passionworkeer/twinbuddy) — 🏆 2026 Douyin AI Hackathon 2nd Prize (Team Lead)
 
 An AI-native companion-matching prototype where digital twins negotiate on behalf of users before presenting a match.
 
-- MING persona distillation framework
-- bilateral Agent negotiation with LangGraph
-- multi-dimensional compatibility scoring and explainable match reports
-- full-stack execution from product concept to frontend, backend, and Agent workflow
+- 🏆 **2nd Prize, Track 3 — Douyin AI Innovator Program 2026 Hackathon League** (Team Lead of 4)
+- MING persona distillation framework — ≥90% fidelity soul fingerprints from chat history
+- bilateral Agent negotiation with LangGraph; 20s → 1.2s latency via Mega-Prompt single-call
+- multi-dimensional compatibility scoring, SSE streaming, explainable match reports
 
 `React` `TypeScript` `FastAPI` `LangGraph` `Multi-Agent`
 
@@ -110,7 +112,7 @@ A Claude Code skill prototype for turning a high-level requirement into a struct
 | Direction | Public Projects | What I explored |
 |---|---|---|
 | Agent Infrastructure & Memory | [yt](https://github.com/passionworkeer/obsidian-shared-memory-bus) | Shared memory, MCP, retrieval, runtime reliability, security |
-| Evaluation & Research | [tengxun_open](https://github.com/passionworkeer/tengxun_open) | PE / RAG / LoRA experiments, strict evaluation, bad-case analysis |
+| Evaluation & Research | private (Tencent × SZDT joint program) | PE / RAG / LoRA experiments, strict evaluation, bad-case analysis |
 | AI-native Products | [TwinBuddy](https://github.com/passionworkeer/twinbuddy), [TRIX](https://github.com/passionworkeer/TRIX_ap), [CareerGuide](https://github.com/passionworkeer/career-guide) | Digital twins, AI companions, recommendation and decision products |
 | Agent Tools & Prototypes | [longcode](https://github.com/passionworkeer/longcode), [Travel Agent](https://github.com/passionworkeer/gaode_agent), [AI Video Editor](https://github.com/passionworkeer/aivideochatcut) | Agent harnesses, MCP tools, multimodal workflows, browser and media automation |
 
@@ -158,10 +160,14 @@ Built a multimodal AI content-generation system for cross-border e-commerce visu
 
 | Award | Role | Year |
 |---|---|---:|
-| Douyin Hackathon — 2nd Place | Team Lead | 2026 |
-| National Math Modeling — Provincial 1st | Team Lead | 2025 |
-| Huashu Cup Math Modeling — National 1st | Team Lead | 2025 |
-| Zhengda Cup — Provincial 1st | Team Member | 2025 |
+| [2nd Xinghan Cup National Legal AI Innovation Challenge](https://www.aiinnovation.hezher.com) — **National Top-8 Finalist** (final: Sep 2026, Shanghai) | Tech Lead | 2026 |
+| [2026 Feishu AI Future Talent Cup](https://activity.feishu.cn/future-talent) — **National Top-100** (Top-40 review in progress) | Team Lead | 2026 |
+| [Douyin AI Innovator Program 2026 Hackathon League](https://aiia.douyin.com/) — **2nd Prize, Track 3** | Team Lead | 2026 |
+| [CUMCM National Math Modeling Contest](https://www.mcm.edu.cn/) — **Provincial 1st Prize (Guangdong)**, 68,311 teams | Team Lead | 2025 |
+| 6th Huashu Cup National Math Modeling Contest — **National 1st Prize** | Team Lead | 2025 |
+| 15th Zhengda Cup National Market Survey & Analysis Contest — **Provincial 1st Prize (Guangdong)**, 282k students | Team Member | 2025 |
+
+<sub>Award names verified against official contest sites on 2026-08-17. 中文全名:第二届星瀚杯"全国大学生法律AI应用"创新挑战赛 全国八强 · 2026 AI 先锋未来人才大赛 全国百强 · 抖音 AI 创变者计划 2026 黑客松联赛 赛道三二等奖 · 2025 高教社杯全国大学生数学建模竞赛 广东省一等奖 · 第六届"华数杯"全国大学生数学建模竞赛 全国一等奖 · "正大杯"第十五届全国大学生市场调查与分析大赛 广东省一等奖</sub>
 
 ---
 
