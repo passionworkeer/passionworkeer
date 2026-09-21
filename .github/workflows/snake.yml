@@ -2,7 +2,7 @@ name: Generate contribution snake
 
 on:
   schedule:
-    # Runs daily at 08:17 Asia/Singapore (00:17 UTC).
+    # 每天北京时间 08:17（UTC 00:17）更新。
     - cron: "17 0 * * *"
   workflow_dispatch:
   push:

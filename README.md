@@ -1,14 +1,13 @@
 <div align="center">
 
-# Jianjun Wang
+# 王健俊 · Wang Jianjun
 
 **AI Engineer · Agent Systems / Evals / Backend · Data Science @ Shenzhen Technology University**
 
-I build AI systems that can **reason, act, verify, and survive real-world constraints**.
+I build AI systems that can **reason, act, verify, and work within real-world constraints**.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-resume.wangjianjun.xyz-111827?style=flat&logo=vercel)](https://resume.wangjianjun.xyz)
+[![Portfolio](https://img.shields.io/badge/Portfolio-wangjianjun.xyz-111827?style=flat&logo=vercel)](https://wangjianjun.xyz)
 [![GitHub](https://img.shields.io/badge/GitHub-passionworkeer-181717?style=flat&logo=github)](https://github.com/passionworkeer)
-[![Visitors](https://komarev.com/ghpvc/?username=passionworkeer&color=brightgreen&style=flat&label=Profile+Views)](https://github.com/passionworkeer)
 
 </div>
 
@@ -18,16 +17,12 @@ I build AI systems that can **reason, act, verify, and survive real-world constr
 
 I work across **Agent engineering, backend systems, evaluation, and product delivery**.
 
-- **AI Engineer Intern @ Kuaishou**, currently working on design-agent delivery and evaluation: PRD-driven generation, editable Figma output, structured / visual evidence, diagnosis, and regression
-- Previously worked on enterprise AI, intelligent customer service, AIGC workflows, Agent platforms, and business automation at **Bananain**
-- Built and shipped projects around **RAG / AgentRAG, MCP, shared memory, multi-agent systems, LLM evaluation, FastAPI, and TypeScript**
-- Studying **Data Science and Big Data Technology** at Shenzhen Technology University
+- **AI Engineer Intern @ Kuaishou**, working on engineering delivery and evaluation for design agents
+- Previously worked on enterprise AI, customer service, AIGC workflows, Agent platforms, and business automation as a **PM at Bananain**
+- Build with **MCP, retrieval, shared memory, multi-agent systems, LLM evaluation, FastAPI, and TypeScript**
+- Study **Data Science and Big Data Technology** at Shenzhen Technology University
 
-My current direction is:
-
-**Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**
-
-I care less about whether an AI demo “looks smart” and more about whether it is **reproducible, debuggable, measurable, and useful in a real workflow**.
+My current direction is **Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**.
 
 ---
 
@@ -35,39 +30,37 @@ I care less about whether an AI demo “looks smart” and more about whether it
 
 ### Agent Delivery & Evaluation
 
-Building evaluation loops for long-horizon AI systems:
+Building reproducible review and repair loops for AI systems:
 
-- reproducible datasets and frozen inputs
-- native / structured artifact validation
-- visual and semantic evaluation
-- run evidence, failure diagnosis, and regression
-- separating “tool succeeded” from “task actually passed”
+- freeze inputs and preserve structured artifacts, rendered output, and run evidence
+- assess delivery validity, evidence coverage, and product quality separately
+- make every finding actionable and keep unsupported judgments explicitly unknown
+- diagnose failures, repair the artifact, and rerun the same case for regression evidence
+
+Public writing covers general engineering methods; employer-specific systems, data, configuration, and unpublished artifacts remain internal.
 
 ### Reliable Agent Systems
 
-I am also interested in:
-
-- MCP tool governance and tool contracts
-- RAG / AgentRAG retrieval quality and citation verification
+- MCP tool governance and explicit tool contracts
+- retrieval quality and citation verification
 - shared-memory consistency across agents
 - long-horizon failure modes and false-success detection
-- lightweight observability that supports diagnosis instead of becoming the product itself
+- observability that supports diagnosis and reproducible verification
 
 ---
 
 ## Featured Open-Source Projects
 
-### [Attrax · 火鹰合规](https://github.com/passionworkeer/attrax)
+### [Attrax · 火鹰合规 / 规航 CompliPilot](https://github.com/passionworkeer/attrax)
 
-An AI compliance risk scanner for cross-border e-commerce products.
+An AI compliance risk scanner for cross-border e-commerce products. CompliPilot is the competition name of the same product line, which won **Runner-up (Second Prize)** in the 2026 Xinghan Cup.
 
-- product image understanding + market / category classification
-- regulation knowledge base with evidence-grounded generation
+- product image understanding and market / category classification
+- rule-based regulation lookup, source text, and evidence-grounded generation
 - source / literal / semantic citation verification
-- compliance report, profit analysis, decision table, and roadmap export
-- Next.js + FastAPI production-style architecture with tests and deployment tooling
+- compliance reports, profit analysis, decision tables, and roadmap exports
 
-`Next.js` `TypeScript` `FastAPI` `RAG` `AgentRAG` `Evidence Verification`
+`Next.js` `TypeScript` `FastAPI` `Knowledge Base` `Evidence Verification`
 
 ---
 
@@ -77,23 +70,23 @@ A trustworthy experimental-decision and memory layer designed for scientific R&D
 
 - compile meeting discussions into auditable structured decisions
 - claim / evidence / version / state / scope / owner as first-class fields
-- pre-action audit to block obsolete or conflicting parameters
-- experiment passport for end-to-end traceability
-- Feishu / Lark integration + MCP tools + FastAPI platform
+- pre-action audit for obsolete or conflicting parameters
+- experiment passports, Feishu / Lark integration, and MCP tools
 
-`Python` `FastAPI` `MCP` `RAG` `Feishu / Lark` `Decision Memory`
+**Competition completed:** Annual Top 40, ending at the South China stage of the 2026 AI Pioneer Future Talent Competition. I led the team and the product / trusted-memory design. The work is now retained as an engineering case study; its demonstration data does not establish production business outcomes.
+
+`Python` `FastAPI` `MCP` `Feishu / Lark` `Decision Memory`
 
 ---
 
-### [Shared Memory Bus](https://github.com/passionworkeer/obsidian-shared-memory-bus)
+### [yt · Shared Memory Bus](https://github.com/passionworkeer/obsidian-shared-memory-bus)
 
 A local-first shared-memory runtime for Codex, Claude Code, OpenCode, and other MCP-capable agents.
 
 - cross-tool memory retrieval and writing through MCP
-- JSONL + SQLite / index-backed durable storage
-- hybrid retrieval and hierarchical memory lifecycle
-- split services, concurrency control, CI, and security hardening
-- local-first by default, with optional remote embedding backends
+- JSONL event data, persistent indexes, and derived Markdown documents
+- five-tier memory lifecycle and hybrid retrieval
+- split memory services and optional remote embedding backends
 
 `Node.js` `Python` `MCP` `SQLite` `BM25` `Agent Memory`
 
@@ -103,11 +96,10 @@ A local-first shared-memory runtime for Codex, Claude Code, OpenCode, and other 
 
 A privacy-first local batch image compressor for macOS and Windows.
 
-- 100% local processing, no upload required
+- local processing with no image upload
 - nested-directory preservation and read-only source protection
 - adaptive JPEG / PNG / WebP / HEIC / AVIF compression
-- GUI + headless CLI
-- adversarial, cross-platform, and release-oriented regression tests
+- GUI, headless CLI, and cross-platform release tooling
 
 `Python` `Tkinter` `Pillow` `PyInstaller` `Cross-platform`
 
@@ -117,14 +109,9 @@ A privacy-first local batch image compressor for macOS and Windows.
 
 ### [TwinBuddy / 拼途旅行](https://github.com/passionworkeer/twinbuddy) — 2026 Douyin AI Hackathon, Track 3 Second Prize
 
-An AI-native travel-companion matching prototype where digital personas negotiate before users meet.
+An AI-native travel-companion matching prototype where digital personas negotiate before users meet: MING persona modeling, bilateral LangGraph negotiation, explainable compatibility scoring, and a FastAPI + React / TypeScript prototype.
 
-- MING persona modeling from user data
-- bilateral LangGraph Agent negotiation
-- explainable multi-dimensional compatibility scoring
-- FastAPI + React / TypeScript product prototype
-
-`LangGraph` `Multi-Agent` `FastAPI` `React` `TypeScript`
+I led the team and the product / engineering work. The competition has finished, and the project is retained as a case study.
 
 ---
 
@@ -132,13 +119,11 @@ An AI-native travel-companion matching prototype where digital personas negotiat
 
 | Direction | Repository | What it demonstrates |
 |---|---|---|
-| Compliance AI / AgentRAG | [Attrax](https://github.com/passionworkeer/attrax) | RAG, citation verification, multimodal input, product delivery |
-| Enterprise Agent / Decision Memory | [LabMemory](https://github.com/passionworkeer/LabMemory) | MCP, trusted memory, human confirmation, action governance |
+| Compliance AI | [Attrax](https://github.com/passionworkeer/attrax) | source-grounded generation, citation verification, multimodal input |
+| Decision Memory | [LabMemory](https://github.com/passionworkeer/LabMemory) | trusted memory, human confirmation, action governance |
 | Agent Infrastructure | [Shared Memory Bus](https://github.com/passionworkeer/obsidian-shared-memory-bus) | shared memory, MCP runtime, retrieval, reliability |
-| Developer / Desktop Utility | [QingTu](https://github.com/passionworkeer/qingtu-image-compressor) | engineering quality, cross-platform delivery, testing |
-| Multi-Agent Product | [TwinBuddy](https://github.com/passionworkeer/twinbuddy) | digital persona, negotiation, product prototyping |
-
-> Older experiments and forks are intentionally not featured here. This page prioritizes projects that are still representative of my current engineering direction.
+| Desktop Utility | [QingTu](https://github.com/passionworkeer/qingtu-image-compressor) | local processing, cross-platform delivery, testing |
+| Multi-Agent Product | [TwinBuddy](https://github.com/passionworkeer/twinbuddy) | digital personas, negotiation, product prototyping |
 
 ---
 
@@ -162,29 +147,15 @@ An AI-native travel-companion matching prototype where digital personas negotiat
 
 ### AI Engineer Intern · Kuaishou, Main Site Technology `2026.09 – present`
 
-Working on engineering delivery and evaluation for AI design agents.
-
-- turn PRD-driven generation into artifacts that can be validated and regressed
-- combine structured evidence, rendered output, and requirement-level evaluation
-- build reproducible evaluation / diagnosis workflows instead of relying on one-shot subjective review
-- work across Agent orchestration, tool calls, evaluation datasets, and backend integration
+Engineering delivery and evaluation for AI design agents: reproducible inputs, structured and visual evidence, actionable findings, diagnosis, and regression.
 
 ### PM · Bananain `2026.05 – 2026.09`
 
-Worked on enterprise AI and AI productization across customer service, visual production, Agent platforms, and workflow automation.
+Enterprise AI and product delivery across customer-service / VOC analysis, Agent platforms and tool governance, AIGC visual workflows, and business automation.
 
-- intelligent customer-service / VOC taxonomy and evaluation
-- enterprise Agent platform, Skill / Tool / permission governance
-- AIGC visual production and Photoshop workflow
-- business automation, RPA, and cross-team delivery
+### AI Full-Stack Engineer · Shenzhen Linyuan Technology
 
-### AI Full-Stack Engineer · Shenzhen Linyuan Technology `2025.10 – 2025.12`
-
-Built a multimodal AI content-generation system for cross-border e-commerce workflows.
-
-- FastAPI + Redis + WebSocket asynchronous architecture
-- heterogeneous model routing / gateway
-- LLM-as-a-Judge evaluation and prompt optimization
+Multimodal AI content generation for cross-border e-commerce, with FastAPI + Redis + WebSocket asynchronous workflows, model routing, and evaluation.
 
 ---
 
@@ -192,12 +163,12 @@ Built a multimodal AI content-generation system for cross-border e-commerce work
 
 | Award | Role | Year |
 |---|---|---:|
-| 2nd Xinghan Cup National Legal AI Innovation Challenge — **Runner-up (Second Prize)** | Technical Core | 2026 |
-| 2026 AI Pioneer Future Talent Competition — **Annual Top 40, South China Stage** | Team Lead | 2026 |
-| Douyin AI Changemakers Hackathon League — **Track 3 Second Prize** | Team Lead | 2026 |
-| CUMCM National Math Modeling Contest — **Guangdong 1st Prize** | Team Lead | 2025 |
-| 6th Huashu Cup National Math Modeling Contest — **National 1st Prize** | Team Lead | 2025 |
-| 15th Zhengda Cup National Market Survey & Analysis Contest — **Guangdong 1st Prize** | Team Member | 2025 |
+| 第二届星瀚杯“全国大学生法律AI应用”创新挑战赛 — **Runner-up (Second Prize)** | Technical Core | 2026 |
+| 2026 AI 先锋未来人才大赛 — **Annual Top 40, South China Stage** | Team Lead | 2026 |
+| 抖音 AI 创变者计划 2026 年黑客松联赛 — **Track 3 Second Prize (清北哈站)** | Team Lead | 2026 |
+| 2025 年（第 34 届）高教社杯全国大学生数学建模竞赛 — **Guangdong 1st Prize** | Team Lead | 2025 |
+| 2025 年第六届“华数杯”全国大学生数学建模竞赛 — **National 1st Prize** | Team Lead | 2025 |
+| “正大杯”第十五届全国大学生市场调查与分析大赛 — **Guangdong 1st Prize** | Team Member | 2025 |
 
 ---
 
@@ -205,28 +176,20 @@ Built a multimodal AI content-generation system for cross-border e-commerce work
 
 **Agent / AI**
 
-`LangGraph` `LangChain` `MCP` `RAG` `AgentRAG` `Multi-Agent` `LLM Evaluation` `Prompt Engineering` `LoRA`
+`LangGraph` `MCP` `Retrieval` `Multi-Agent` `LLM Evaluation` `Prompt Engineering`
 
 **Backend / Engineering**
 
-`Python` `FastAPI` `TypeScript` `Java` `Redis` `SQLite` `PostgreSQL` `Docker` `Git`
+`Python` `FastAPI` `TypeScript` `Redis` `SQLite` `Docker` `Git`
 
 **Delivery / Product**
 
-`PRD` `Workflow Design` `Evaluation Design` `Data Analysis` `Figma` `AI Coding`
+`PRD` `Workflow Design` `Evaluation Design` `Data Analysis` `Figma`
 
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=python,fastapi,nodejs,react,ts,java,postgres,redis,docker,git,linux)](https://skillicons.dev)
+[Portfolio · 项目与工程实践](https://wangjianjun.xyz)
 
-</div>
-
----
-
-<div align="center">
-
-**Building AI systems that are useful after the demo ends.**
-
-Agent Engineering · Applied AI · Backend · Evaluation
+<sub>Last updated: 2026-09-21</sub>
 
 </div>
