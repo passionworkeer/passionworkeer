@@ -2,13 +2,13 @@
 
 # Jianjun Wang
 
-**AI-native Product Manager · Agent Engineer · Data Science @ Shenzhen Technology University**
+**AI Engineer · Agent Systems / Evals / Backend · Data Science @ Shenzhen Technology University**
 
-I turn ambiguous business problems into AI systems that can reason, act, verify, and improve.
+I build AI systems that can **reason, act, verify, and survive real-world constraints**.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-resume.wangjianjun.xyz-111827?style=flat&logo=vercel)](https://resume.wangjianjun.xyz)
 [![GitHub](https://img.shields.io/badge/GitHub-passionworkeer-181717?style=flat&logo=github)](https://github.com/passionworkeer)
 [![Email](https://img.shields.io/badge/Email-188482362+passionworkeer@users.noreply.github.com-EA4335?style=flat&logo=gmail)](mailto:188482362+passionworkeer@users.noreply.github.com)
-[![Location](https://img.shields.io/badge/Location-Shenzhen-1677FF?style=flat&logo=googlemaps&logoColor=white)](https://github.com/passionworkeer)
 [![Visitors](https://komarev.com/ghpvc/?username=passionworkeer&color=brightgreen&style=flat&label=Profile+Views)](https://github.com/passionworkeer)
 
 </div>
@@ -17,104 +17,129 @@ I turn ambiguous business problems into AI systems that can reason, act, verify,
 
 ## About Me
 
-I work at the intersection of **product judgment, Agent systems, and engineering execution**.
+I work across **Agent engineering, backend systems, evaluation, and product delivery**.
 
-- AI Product Manager Intern at Banana in, working on enterprise AI, intelligent customer service, workflow automation, knowledge systems, and visual AIGC
-- Able to move from business discovery to PRDs, domain models, data taxonomies, Agent/RAG workflows, evaluation systems, and working prototypes
-- Interested in **AI-native products, Agent engineering, FDE-style delivery, multi-agent reliability, and long-term memory**
-- Studying Data Science and Big Data Technology at Shenzhen Technology University
+- **AI Engineer Intern @ Kuaishou**, currently working on design-agent delivery and evaluation: PRD-driven generation, editable Figma output, structured / visual evidence, diagnosis, and regression
+- Previously worked on enterprise AI, intelligent customer service, AIGC workflows, Agent platforms, and business automation at **Bananain**
+- Built and shipped projects around **RAG / AgentRAG, MCP, shared memory, multi-agent systems, LLM evaluation, FastAPI, and TypeScript**
+- Studying **Data Science and Big Data Technology** at Shenzhen Technology University
 
-My usual working loop is:
+My current direction is:
 
-**Problem discovery → workflow redesign → system modeling → Agent implementation → evaluation → iteration**
+**Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**
+
+I care less about whether an AI demo “looks smart” and more about whether it is **reproducible, debuggable, measurable, and useful in a real workflow**.
 
 ---
 
 ## Current Focus
 
+### Agent Delivery & Evaluation
+
+Building evaluation loops for long-horizon AI systems:
+
+- reproducible datasets and frozen inputs
+- native / structured artifact validation
+- visual and semantic evaluation
+- run evidence, failure diagnosis, and regression
+- separating “tool succeeded” from “task actually passed”
+
 ### Reliable Agent Systems
 
-> Studying factual belief disagreement between agents as an early-warning signal for silent failures in shared-memory multi-agent systems.
+I am also interested in:
 
-Current topics include:
-
-- shared-memory consistency and false-success detection
-- online cross-agent belief-divergence measurement
-- lightweight pre-action audits and environment-oracle validation
-- adaptations of τ-bench / τ²-bench for memory reliability research
-
-### Enterprise AI Productization
-
-Turning real workflows into AI systems with clear boundaries and measurable outcomes:
-
-- requirement discovery and workflow redesign
-- intent taxonomy, evaluation sets, and quality assurance
-- RAG / Agent architecture and tool integration
-- human-in-the-loop routing, exception handling, and fallback design
-- dashboards, delivery validation, and continuous iteration
-
-Some current competition and enterprise projects remain private, so this profile only links work that is suitable for public review.
+- MCP tool governance and tool contracts
+- RAG / AgentRAG retrieval quality and citation verification
+- shared-memory consistency across agents
+- long-horizon failure modes and false-success detection
+- lightweight observability that supports diagnosis instead of becoming the product itself
 
 ---
 
-## Featured Projects
+## Featured Open-Source Projects
 
-### [yt · Shared Memory Bus](https://github.com/passionworkeer/obsidian-shared-memory-bus)
+### [Attrax · 火鹰合规](https://github.com/passionworkeer/attrax)
 
-A local-first shared-memory runtime that lets Claude Code, Codex, Cursor, Claude Desktop, and other MCP clients share structured memory.
+An AI compliance risk scanner for cross-border e-commerce products.
 
-- MCP-based cross-tool retrieval, writing, and memory management
-- local JSONL event storage, search indexes, and derived Markdown documents
-- BM25 and local hash-embedding retrieval with optional remote embedding backends
-- split services, cross-platform runtime support, CI, security hardening, and operational tooling
+- product image understanding + market / category classification
+- regulation knowledge base with evidence-grounded generation
+- source / literal / semantic citation verification
+- compliance report, profit analysis, decision table, and roadmap export
+- Next.js + FastAPI production-style architecture with tests and deployment tooling
 
-`Node.js` `Python` `MCP` `SQLite` `BM25` `RAG` `Local-first AI`
+`Next.js` `TypeScript` `FastAPI` `RAG` `AgentRAG` `Evidence Verification`
 
-### Code Knowledge Base & Agent Governance — Tencent × SZDT joint program `private repo`
+---
 
-An evaluation and governance suite for cross-file dependency analysis on real repositories, comparing prompt engineering, retrieval, and domain adaptation.
+### [LabMemory · 晶研智流](https://github.com/passionworkeer/LabMemory)
 
-- manually reviewed 54-case evaluation set with strict scoring audits
-- systematic comparison of baseline, PE, RAG, LoRA, and combined strategies
-- AST-aware retrieval, bad-case diagnosis, ablation studies, and reproducible reports
-- trace-driven MCP tool governance: cross-file analysis F1 0.28 → 0.61
+A trustworthy experimental-decision and memory layer designed for scientific R&D workflows.
 
-`Python` `AST` `RAG` `LoRA` `MCP` `LLM Evaluation` `Tree-sitter`
+- compile meeting discussions into auditable structured decisions
+- claim / evidence / version / state / scope / owner as first-class fields
+- pre-action audit to block obsolete or conflicting parameters
+- experiment passport for end-to-end traceability
+- Feishu / Lark integration + MCP tools + FastAPI platform
 
-> Repo kept private per collaboration terms. Live write-up: [resume.wangjianjun.xyz](https://resume.wangjianjun.xyz) → Work → RepoMind.
+`Python` `FastAPI` `MCP` `RAG` `Feishu / Lark` `Decision Memory`
 
-### [TwinBuddy / 拼途旅行](https://github.com/passionworkeer/twinbuddy) — 🏆 2026 Douyin AI Hackathon 2nd Prize (Team Lead)
+---
 
-An AI-native companion-matching prototype where digital twins negotiate on behalf of users before presenting a match.
+### [Shared Memory Bus](https://github.com/passionworkeer/obsidian-shared-memory-bus)
 
-- 🏆 **2nd Prize, Track 3 — Douyin AI Innovator Program 2026 Hackathon League** (Team Lead of 4)
-- MING persona distillation framework — ≥90% fidelity soul fingerprints from chat history
-- bilateral Agent negotiation with LangGraph; 20s → 1.2s latency via Mega-Prompt single-call
-- multi-dimensional compatibility scoring, SSE streaming, explainable match reports
+A local-first shared-memory runtime for Codex, Claude Code, OpenCode, and other MCP-capable agents.
 
-`React` `TypeScript` `FastAPI` `LangGraph` `Multi-Agent`
+- cross-tool memory retrieval and writing through MCP
+- JSONL + SQLite / index-backed durable storage
+- hybrid retrieval and hierarchical memory lifecycle
+- split services, concurrency control, CI, and security hardening
+- local-first by default, with optional remote embedding backends
 
-### [longcode](https://github.com/passionworkeer/longcode)
+`Node.js` `Python` `MCP` `SQLite` `BM25` `Agent Memory`
 
-A Claude Code skill prototype for turning a high-level requirement into a structured development workflow.
+---
 
-- requirement collection and task decomposition
-- Agent-based implementation, review, testing, and retry loops
-- atomic Git commits and resumable execution state
-- reusable plans, reports, and quality gates for long-running coding tasks
+### [QingTu · 轻图](https://github.com/passionworkeer/qingtu-image-compressor)
 
-`Claude Code` `Agent Harness` `Git Workflow` `Testing` `Prompt Engineering`
+A privacy-first local batch image compressor for macOS and Windows.
+
+- 100% local processing, no upload required
+- nested-directory preservation and read-only source protection
+- adaptive JPEG / PNG / WebP / HEIC / AVIF compression
+- GUI + headless CLI
+- adversarial, cross-platform, and release-oriented regression tests
+
+`Python` `Tkinter` `Pillow` `PyInstaller` `Cross-platform`
+
+---
+
+## Selected Past Project
+
+### [TwinBuddy / 拼途旅行](https://github.com/passionworkeer/twinbuddy) — 2026 Douyin AI Hackathon, Track 3 Second Prize
+
+An AI-native travel-companion matching prototype where digital personas negotiate before users meet.
+
+- MING persona modeling from user data
+- bilateral LangGraph Agent negotiation
+- explainable multi-dimensional compatibility scoring
+- FastAPI + React / TypeScript product prototype
+
+`LangGraph` `Multi-Agent` `FastAPI` `React` `TypeScript`
 
 ---
 
 ## Project Map
 
-| Direction | Public Projects | What I explored |
+| Direction | Repository | What it demonstrates |
 |---|---|---|
-| Agent Infrastructure & Memory | [yt](https://github.com/passionworkeer/obsidian-shared-memory-bus) | Shared memory, MCP, retrieval, runtime reliability, security |
-| Evaluation & Research | private (Tencent × SZDT joint program) | PE / RAG / LoRA experiments, strict evaluation, bad-case analysis |
-| AI-native Products | [TwinBuddy](https://github.com/passionworkeer/twinbuddy), [TRIX](https://github.com/passionworkeer/TRIX_ap), [CareerGuide](https://github.com/passionworkeer/career-guide) | Digital twins, AI companions, recommendation and decision products |
-| Agent Tools & Prototypes | [longcode](https://github.com/passionworkeer/longcode), [Travel Agent](https://github.com/passionworkeer/gaode_agent), [AI Video Editor](https://github.com/passionworkeer/aivideochatcut) | Agent harnesses, MCP tools, multimodal workflows, browser and media automation |
+| Compliance AI / AgentRAG | [Attrax](https://github.com/passionworkeer/attrax) | RAG, citation verification, multimodal input, product delivery |
+| Enterprise Agent / Decision Memory | [LabMemory](https://github.com/passionworkeer/LabMemory) | MCP, trusted memory, human confirmation, action governance |
+| Agent Infrastructure | [Shared Memory Bus](https://github.com/passionworkeer/obsidian-shared-memory-bus) | shared memory, MCP runtime, retrieval, reliability |
+| Developer / Desktop Utility | [QingTu](https://github.com/passionworkeer/qingtu-image-compressor) | engineering quality, cross-platform delivery, testing |
+| Multi-Agent Product | [TwinBuddy](https://github.com/passionworkeer/twinbuddy) | digital persona, negotiation, product prototyping |
+
+> Older experiments and forks are intentionally not featured here. This page prioritizes projects that are still representative of my current engineering direction.
 
 ---
 
@@ -128,7 +153,7 @@ A Claude Code skill prototype for turning a high-level requirement into a struct
   <img alt="Animated contribution graph" src="https://raw.githubusercontent.com/passionworkeer/passionworkeer/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<sub>Generated daily from my public GitHub contribution graph.</sub>
+<sub>Generated from my public GitHub contribution graph.</sub>
 
 </div>
 
@@ -136,23 +161,31 @@ A Claude Code skill prototype for turning a high-level requirement into a struct
 
 ## Experience
 
-### AI Product Manager Intern · Banana in `2026.05 – present`
+### AI Engineer Intern · Kuaishou, Main Site Technology `2026.09 – present`
 
-Working on the productization of AI across customer service, enterprise workflows, knowledge systems, and creative production.
+Working on engineering delivery and evaluation for AI design agents.
 
-- Translate business pain points into product requirements, system workflows, and measurable evaluation plans
-- Design intent taxonomies, mapping rules, quality checks, dashboards, and human-handoff strategies for intelligent customer service
-- Explore enterprise Agent platforms, workflow orchestration, browser automation, and internal knowledge applications
-- Research visual AIGC workflows involving Photoshop plugins, ComfyUI, LoRA, and brand-consistency control
-- Coordinate product, engineering, operations, and external vendors through testing and delivery
+- turn PRD-driven generation into artifacts that can be validated and regressed
+- combine structured evidence, rendered output, and requirement-level evaluation
+- build reproducible evaluation / diagnosis workflows instead of relying on one-shot subjective review
+- work across Agent orchestration, tool calls, evaluation datasets, and backend integration
 
-### AI Application Engineer · Shenzhen Linyuan Technology `2025.10 – 2025.12`
+### PM · Bananain `2026.05 – 2026.09`
 
-Built a multimodal AI content-generation system for cross-border e-commerce visual workflows.
+Worked on enterprise AI and AI productization across customer service, visual production, Agent platforms, and workflow automation.
 
-- Designed an asynchronous architecture with FastAPI, Redis task queues, WebSocket delivery, and failure recovery
-- Built a model-routing gateway for heterogeneous LLM and image-generation providers
-- Constructed an LLM-as-a-Judge evaluation workflow and optimized prompts with few-shot examples
+- intelligent customer-service / VOC taxonomy and evaluation
+- enterprise Agent platform, Skill / Tool / permission governance
+- AIGC visual production and Photoshop workflow
+- business automation, RPA, and cross-team delivery
+
+### AI Full-Stack Engineer · Shenzhen Linyuan Technology `2025.10 – 2025.12`
+
+Built a multimodal AI content-generation system for cross-border e-commerce workflows.
+
+- FastAPI + Redis + WebSocket asynchronous architecture
+- heterogeneous model routing / gateway
+- LLM-as-a-Judge evaluation and prompt optimization
 
 ---
 
@@ -160,32 +193,32 @@ Built a multimodal AI content-generation system for cross-border e-commerce visu
 
 | Award | Role | Year |
 |---|---|---:|
-| [2nd Xinghan Cup National Legal AI Innovation Challenge](https://www.aiinnovation.hezher.com) — **National Top-8 Finalist** (final: Sep 2026, Shanghai) | Tech Lead | 2026 |
-| [2026 Feishu AI Future Talent Cup](https://activity.feishu.cn/future-talent) — **National Top-100** (Top-40 review in progress) | Team Lead | 2026 |
-| [Douyin AI Innovator Program 2026 Hackathon League](https://aiia.douyin.com/) — **2nd Prize, Track 3** | Team Lead | 2026 |
-| [CUMCM National Math Modeling Contest](https://www.mcm.edu.cn/) — **Provincial 1st Prize (Guangdong)**, 68,311 teams | Team Lead | 2025 |
+| 2nd Xinghan Cup National Legal AI Innovation Challenge — **Runner-up (Second Prize)** | Technical Core | 2026 |
+| 2026 AI Pioneer Future Talent Competition — **Annual Top 40, South China Stage** | Team Lead | 2026 |
+| Douyin AI Changemakers Hackathon League — **Track 3 Second Prize** | Team Lead | 2026 |
+| CUMCM National Math Modeling Contest — **Guangdong 1st Prize** | Team Lead | 2025 |
 | 6th Huashu Cup National Math Modeling Contest — **National 1st Prize** | Team Lead | 2025 |
-| 15th Zhengda Cup National Market Survey & Analysis Contest — **Provincial 1st Prize (Guangdong)**, 282k students | Team Member | 2025 |
-
-<sub>Award names verified against official contest sites on 2026-08-17.</sub>
+| 15th Zhengda Cup National Market Survey & Analysis Contest — **Guangdong 1st Prize** | Team Member | 2025 |
 
 ---
 
 ## Toolbox
 
-**Product & Delivery**
+**Agent / AI**
 
-`Product Discovery` `PRD` `Workflow Design` `Domain Modeling` `Intent Taxonomy` `Data Analysis` `Dashboard Design`
+`LangGraph` `LangChain` `MCP` `RAG` `AgentRAG` `Multi-Agent` `LLM Evaluation` `Prompt Engineering` `LoRA`
 
-**Agents, Evaluation & Reliability**
+**Backend / Engineering**
 
-`LangGraph` `LangChain` `Multi-Agent` `MCP` `RAG` `Shared Memory` `LLM Evaluation` `Prompt Engineering` `LoRA`
+`Python` `FastAPI` `TypeScript` `Java` `Redis` `SQLite` `PostgreSQL` `Docker` `Git`
 
-**Engineering**
+**Delivery / Product**
+
+`PRD` `Workflow Design` `Evaluation Design` `Data Analysis` `Figma` `AI Coding`
 
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=python,fastapi,nodejs,react,ts,postgres,redis,docker,git,linux)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=python,fastapi,nodejs,react,ts,java,postgres,redis,docker,git,linux)](https://skillicons.dev)
 
 </div>
 
@@ -193,8 +226,8 @@ Built a multimodal AI content-generation system for cross-border e-commerce visu
 
 <div align="center">
 
-**Looking for opportunities where product judgment and engineering execution are equally important.**
+**Building AI systems that are useful after the demo ends.**
 
-AI Product · Agent Engineer · Applied AI · FDE
+Agent Engineering · Applied AI · Backend · Evaluation
 
 </div>
