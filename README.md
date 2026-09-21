@@ -24,6 +24,12 @@ I work across **Agent engineering, backend systems, evaluation, and product deli
 
 My current direction is **Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**.
 
+| <img src="assets/logos/kuaishou.svg" alt="快手 Kuaishou" width="144" height="50" /> | <img src="assets/logos/bananain.svg" alt="蕉内 Bananain" width="144" height="50" /> | <img src="assets/logos/feishu.svg" alt="飞书 Feishu" width="144" height="50" /> | <img src="assets/logos/douyin.svg" alt="抖音 Douyin" width="144" height="50" /> |
+| :---: | :---: | :---: | :---: |
+| **AI Engineer Intern**<br/>Agent delivery & evaluation | **Previous · PM**<br/>Enterprise AI & product | **LabMemory integration**<br/>Feishu / Lark + MCP | **AI Hackathon**<br/>Track 3 Second Prize |
+
+<sub>[Logo sources](assets/logos/README.md)</sub>
+
 ---
 
 ## Current Focus
