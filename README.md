@@ -8,7 +8,6 @@ I build AI systems that can **reason, act, verify, and survive real-world constr
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-resume.wangjianjun.xyz-111827?style=flat&logo=vercel)](https://resume.wangjianjun.xyz)
 [![GitHub](https://img.shields.io/badge/GitHub-passionworkeer-181717?style=flat&logo=github)](https://github.com/passionworkeer)
-[![Email](https://img.shields.io/badge/Email-188482362+passionworkeer@users.noreply.github.com-EA4335?style=flat&logo=gmail)](mailto:188482362+passionworkeer@users.noreply.github.com)
 [![Visitors](https://komarev.com/ghpvc/?username=passionworkeer&color=brightgreen&style=flat&label=Profile+Views)](https://github.com/passionworkeer)
 
 </div>
