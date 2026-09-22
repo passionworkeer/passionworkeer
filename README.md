@@ -25,9 +25,9 @@ I work across **Agent engineering, backend systems, evaluation, and product deli
 
 My current direction is **Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**.
 
-| <img src="assets/logos/kuaishou.svg" alt="快手 Kuaishou" width="144" height="50" /> | <img src="assets/logos/tencent.svg" alt="腾讯 Tencent" width="144" height="50" /> | <img src="assets/logos/bananain.svg" alt="蕉内 Bananain" width="144" height="50" /> | <img src="assets/logos/feishu.svg" alt="飞书 Feishu" width="144" height="50" /> | <img src="assets/logos/douyin.svg" alt="抖音 Douyin" width="144" height="50" /> |
-| :---: | :---: | :---: | :---: | :---: |
-| **AI Engineer Intern**<br/>Agent delivery & evaluation | **Tencent × SZTU**<br/>RepoMind tool governance | **Previous · PM**<br/>Enterprise AI & product | **LabMemory integration**<br/>Feishu / Lark + MCP | **AI Hackathon**<br/>Track 3 Second Prize |
+| <img src="assets/logos/tencent.svg" alt="腾讯 Tencent" width="144" height="50" /> | <img src="assets/logos/kuaishou.svg" alt="快手 Kuaishou" width="144" height="50" /> | <img src="assets/logos/bananain.svg" alt="蕉内 Bananain" width="144" height="50" /> | <img src="assets/logos/feishu.svg" alt="飞书 Feishu" width="144" height="50" /> |
+| :---: | :---: | :---: | :---: |
+| **Tencent × SZTU**<br/>RepoMind tool governance | **AI Engineer Intern**<br/>Agent delivery & evaluation | **Previous · PM**<br/>Enterprise AI & product | **LabMemory integration**<br/>Feishu / Lark + MCP |
 
 <sub>[Logo sources](assets/logos/README.md)</sub>
 
@@ -152,7 +152,7 @@ I led the team and the product / engineering work. The competition has finished,
 
 ## Experience
 
-### AI Engineer Intern · Kuaishou, Main Site Technology `2026.09 – present`
+### AI Engineer Intern · Kuaishou, Main Site Technology `2026.08 – present`
 
 Engineering delivery and evaluation for AI design agents: reproducible inputs, structured and visual evidence, actionable findings, diagnosis, and regression.
 
@@ -165,7 +165,7 @@ University-industry joint project on a multilingual code-intelligence system for
 - raised difficult-case pass rate from 46.2% to 53.8%; D15-block recall from 0.083 to 0.250
 - cut incremental code-graph update latency by ~90×
 
-### PM · Bananain `2026.05 – 2026.09`
+### PM · Bananain `2026.04 – 2026.08`
 
 Enterprise AI and product delivery across customer-service / VOC analysis, Agent platforms and tool governance, AIGC visual workflows, and business automation.
 
