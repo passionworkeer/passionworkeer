@@ -2,7 +2,7 @@
 
 # 王健俊 · Wang Jianjun
 
-**AI Engineer · Agent Systems / Evals / Backend · Data Science @ Shenzhen Technology University**
+**AI Agent Engineer · Agent Systems / Evals / Full-Stack · Data Science @ Shenzhen Technology University**
 
 I build AI systems that can **reason, act, verify, and work within real-world constraints**.
 
@@ -17,17 +17,17 @@ I build AI systems that can **reason, act, verify, and work within real-world co
 
 I work across **Agent engineering, backend systems, evaluation, and product delivery**.
 
-- **AI Engineer Intern @ Kuaishou**, working on engineering delivery and evaluation for design agents
-- Previously worked on enterprise AI, customer service, AIGC workflows, Agent platforms, and business automation as a **PM at Bananain**
-- Led the tool-governance track of **RepoMind** under the **Tencent × SZTU** university-industry joint project (multilingual code-intelligence for coding agents)
-- Build with **MCP, retrieval, shared memory, multi-agent systems, LLM evaluation, FastAPI, and TypeScript**
+- **Agent Developer / AI Agent Engineer @ Kuaishou (Main Site Tech - Operations Tech)**, working on M0 Design (PRD → Figma → Code) Agent evaluation benchmark, Figma JSX declarative editing & Reconcile, and MCP concurrency stability
+- Previously built enterprise AIGC visual production & enterprise Agent platforms as an **AI Application Engineer at Bananain**
+- Led Coding Agent Trace & Eval and Tree-sitter Code Intelligence for **RepoMind** under the **Tencent × SZTU** university-industry joint project
+- Build with **MCP, Agent Evaluation, Tree-sitter / AST, LangGraph, RAG / Hybrid Retrieval, FastAPI, and TypeScript**
 - Study **Data Science and Big Data Technology** at Shenzhen Technology University
 
-My current direction is **Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**.
+My current direction is **AI Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**.
 
 | <img src="assets/logos/tencent.svg" alt="腾讯 Tencent" width="144" height="50" /> | <img src="assets/logos/kuaishou.svg" alt="快手 Kuaishou" width="144" height="50" /> | <img src="assets/logos/bananain.svg" alt="蕉内 Bananain" width="144" height="50" /> | <img src="assets/logos/feishu.svg" alt="飞书 Feishu" width="144" height="50" /> |
 | :---: | :---: | :---: | :---: |
-| **Tencent × SZTU**<br/>RepoMind tool governance | **AI Engineer Intern**<br/>Agent delivery & evaluation | **Previous · PM**<br/>Enterprise AI & product | **LabMemory integration**<br/>Feishu / Lark + MCP |
+| **Tencent × SZTU**<br/>RepoMind Eval & Code Graph | **Agent Developer**<br/>M0 Design Agent & MCP | **AI Application Engineer**<br/>AIGC Visual & Agent Platform | **Feishu AI Pioneer**<br/>Top 10 · LabMemory + MCP |
 
 <sub>[Logo sources](assets/logos/README.md)</sub>
 
@@ -152,26 +152,31 @@ I led the team and the product / engineering work. The competition has finished,
 
 ## Experience
 
-### AI Engineer Intern · Kuaishou, Main Site Technology `2026.08 – present`
+### Agent Developer · Kuaishou, Main Site Technology (Operations Tech) `2026.08 – present`
 
-Engineering delivery and evaluation for AI design agents: reproducible inputs, structured and visual evidence, actionable findings, diagnosis, and regression.
+Responsible for the evaluation system, Figma structured editing, and MCP integration across the full M0 Design (PRD → Figma → Code) Agent lifecycle:
 
-### Tool-Governance Lead · Tencent × SZTU · RepoMind `2026.03 – present`
+- **Agent Eval & Data Flywheel:** Led the continuous evaluation platform for PRD → Figma Agent, constructing a benchmark of **84 tasks / 160 pages / 979 atomic criteria**. Combined native Figma AST parsing, screenshots, Rule-based Graders, and LLM-as-a-Judge. Automated multi-layer root-cause attribution from traces, discovered **80+ bad cases, located 45+ root causes**, and landed **32+ fixes across 13+ MRs**. Core acceptance auto-coverage reached **95%+**, single-case eval time dropped from **20–30 min to 3–5 min**, and high-priority bad cases dropped from **18% to 6%**.
+- **Figma Structured Editing:** Co-designed declarative editing protocol serializing Figma **SceneGraph to JSX structures** for LLM read/write with Reconcile diff writeback. Implemented selective instance expansion, component property/override recovery, and boundary constraints. Achieved **95%+ complex design edit success rate** on **143+ automated test cases**, reducing fine-grained tool calls by **60%+**.
+- **MCP Integration & Stability:** Packaged generation capabilities into **MCP** for internal agents (Agent → MCP → Figma Runtime / Host). Governed session/tab binding, timeouts, and runtime crashes with error recovery; raised complex generation **E2E success rate to 95%+** and cut concurrency exception rate by **50%+**.
 
-University-industry joint project on a multilingual code-intelligence system for coding agents. Not a formal Tencent internship.
+### AI Application Engineer · Bananain (三立人科技有限公司) `2026.04 – 2026.08`
 
-- analyzed 496 real agent traces to localize toolchain failure modes
-- authored ~6,100 lines of tool contracts, evidence slots, and AST hints
-- raised difficult-case pass rate from 46.2% to 53.8%; D15-block recall from 0.083 to 0.250
-- cut incremental code-graph update latency by ~90×
+Responsible for internal AIGC visual production and enterprise Agent platform:
 
-### PM · Bananain `2026.04 – 2026.08`
+- **AIGC Multimodal Visual Production:** Led product image generation platform & PS AI plugin (**FastAPI + React + Adobe UXP**). Designed **LookSpec structured understanding + DAG pipeline + BBox localization/inpainting + quality retry loop**, boosting single-person daily output from **10 to 30 images** and cutting unit cost by **51%**.
+- **Enterprise Agent Platform:** Built company-wide **AI Gateway + MCP Capability Layer** (unified model/BI/KB/API routing, RBAC/Tool Scope), deployed AI Planning & Supply Chain QA Agents with full-link monitoring, evaluation, and root-cause localization.
 
-Enterprise AI and product delivery across customer-service / VOC analysis, Agent platforms and tool governance, AIGC visual workflows, and business automation.
+### AI Application Engineer · Shenzhen Linyuan Technology `2025.10 – 2026.02`
 
-### AI Full-Stack Engineer · Shenzhen Linyuan Technology
+Built an e-commerce visual generation pipeline with **FastAPI + Redis + WebSocket**, unified multi-model routing, prompt/style libraries, and **LLM-as-a-Judge**; cut API cost by ~**20%** and manual review/rework by ~**30%**.
 
-Multimodal AI content generation for cross-border e-commerce, with FastAPI + Redis + WebSocket asynchronous workflows, model routing, and evaluation.
+### RepoMind Code Intelligence & Agent Quality Evaluation · Tencent × SZTU `2026.03 – present`
+
+Multilingual code-intelligence and quality evaluation system for coding agents:
+
+- **Coding Agent Trace & Eval:** Built replayable Observation Kernel across **496 real agent traces**; applied Replay, Grounding Audit, and Guardrails; staged evaluation across Evidence Retrieval / Reasoning / Patch Validation, improving cross-file **F1 from 0.28 to 0.61**.
+- **Code Intelligence:** **Tree-sitter** multilingual code graph and incremental indexing with snapshots, immutable generations, and Freshness Gate; reduced single-file update latency from **10.78s to 0.12s (~90×)** across **310 files / 3,855 symbols**.
 
 ---
 
@@ -179,33 +184,29 @@ Multimodal AI content generation for cross-border e-commerce, with FastAPI + Red
 
 | Award | Role | Year |
 |---|---|---:|
-| 第二届星瀚杯“全国大学生法律AI应用”创新挑战赛 — **Runner-up (Second Prize)** | Technical Core | 2026 |
-| 2026 AI 先锋未来人才大赛 — **Annual Top 40, South China Stage** | Team Lead | 2026 |
-| 抖音 AI 创变者计划 2026 年黑客松联赛 — **Track 3 Second Prize (清北哈站)** | Team Lead | 2026 |
-| 2025 年（第 34 届）高教社杯全国大学生数学建模竞赛 — **Guangdong 1st Prize** | Team Lead | 2025 |
-| 2025 年第六届“华数杯”全国大学生数学建模竞赛 — **National 1st Prize** | Team Lead | 2025 |
-| “正大杯”第十五届全国大学生市场调查与分析大赛 — **Guangdong 1st Prize** | Team Member | 2025 |
+| 2026 飞书 AI 先锋未来人才大赛 — **Top 10 (年度 40 强 / 十强)** | Team Lead | 2026 |
+| 第二届星瀚杯“全国大学生法律AI应用”创新挑战赛 — **Runner-up (亚军 · 二等奖)** | Technical Core | 2026 |
+| 抖音 AI 创变者计划 2026 年黑客松联赛 — **Track 3 Second Prize (清北哈站赛道三二等奖)** | Team Lead | 2026 |
+| 2025 年（第 34 届）高教社杯全国大学生数学建模竞赛 — **Guangdong 1st Prize (广东省一等奖)** | Team Lead | 2025 |
+| 2025 年第六届“华数杯”全国大学生数学建模竞赛 — **National 1st Prize (全国一等奖)** | Team Lead | 2025 |
+| “正大杯”第十五届全国大学生市场调查与分析大赛 — **Guangdong 1st Prize (广东省一等奖)** | Team Member | 2025 |
 
 ---
 
 ## Toolbox
 
-**Agent / AI**
+**AI / Agent**
 
-`LangGraph` `MCP` `Retrieval` `Multi-Agent` `LLM Evaluation` `Prompt Engineering`
+`MCP` `Agent Evaluation` `Agent Harness` `LangGraph` `Multi-Agent` `RAG / Hybrid Retrieval` `Context Engineering` `Trace / Replay` `LLM-as-a-Judge` `Skill System` `Agent Observability` `Tree-sitter / AST`
 
 **Backend / Engineering**
 
-`Python` `FastAPI` `TypeScript` `Redis` `SQLite` `Docker` `Git`
-
-**Delivery / Product**
-
-`PRD` `Workflow Design` `Evaluation Design` `Data Analysis` `Figma`
+`Python` `TypeScript` `FastAPI` `React / Node.js` `Redis` `asyncio` `Docker` `Git`
 
 <div align="center">
 
 [Portfolio · 项目与工程实践](https://wangjianjun.xyz)
 
-<sub>Last updated: 2026-09-21</sub>
+<sub>Last updated: 2026-09-23</sub>
 
 </div>
