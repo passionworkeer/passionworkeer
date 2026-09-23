@@ -2,7 +2,7 @@
 
 # 王健俊 · Wang Jianjun
 
-**AI Agent Engineer · Agent Systems / Evals / Full-Stack · Data Science @ Shenzhen Technology University**
+**AI Engineer · Agent Systems / Evals / Backend · Data Science @ Shenzhen Technology University**
 
 I build AI systems that can **reason, act, verify, and work within real-world constraints**.
 
@@ -17,13 +17,13 @@ I build AI systems that can **reason, act, verify, and work within real-world co
 
 I work across **Agent engineering, backend systems, evaluation, and product delivery**.
 
-- **Agent Developer / AI Agent Engineer @ Kuaishou (Main Site Tech - Operations Tech)**, working on M0 Design (PRD → Figma → Code) Agent evaluation benchmark, Figma JSX declarative editing & Reconcile, and MCP concurrency stability
+- **Agent Developer / AI Engineer @ Kuaishou (Main Site Tech - Operations Tech)**, working on M0 Design (PRD → Figma → Code) Agent evaluation benchmark, Figma JSX declarative editing & Reconcile, and MCP concurrency stability
 - Previously built enterprise AIGC visual production & enterprise Agent platforms as an **AI Application Engineer at Bananain**
 - Led Coding Agent Trace & Eval and Tree-sitter Code Intelligence for **RepoMind** under the **Tencent × SZTU** university-industry joint project
 - Build with **MCP, Agent Evaluation, Tree-sitter / AST, LangGraph, RAG / Hybrid Retrieval, FastAPI, and TypeScript**
 - Study **Data Science and Big Data Technology** at Shenzhen Technology University
 
-My current direction is **AI Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**.
+My current direction is **Agent Engineering → Applied AI → Backend Systems → Evaluation & Reliability**.
 
 | <img src="assets/logos/tencent.svg" alt="腾讯 Tencent" width="144" height="50" /> | <img src="assets/logos/kuaishou.svg" alt="快手 Kuaishou" width="144" height="50" /> | <img src="assets/logos/bananain.svg" alt="蕉内 Bananain" width="144" height="50" /> | <img src="assets/logos/feishu.svg" alt="飞书 Feishu" width="144" height="50" /> |
 | :---: | :---: | :---: | :---: |
