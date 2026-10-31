@@ -1,21 +1,17 @@
-<div align="center">
-
 # Jianjun Wang
 
-**AI Agent Engineer · Evaluation · Backend Systems**
-
+**AI Agent Engineer · Evaluation · Backend Systems**<br />
 Backend Development Intern @ **Tencent** · Data Science @ **Shenzhen Technology University**
 
 I build agents that use tools, produce verifiable results, and fit into real workflows.
 
-[Portfolio](https://wangjianjun.xyz) · [Open-source contributions](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer) · [Projects](https://github.com/passionworkeer?tab=repositories)
+[Portfolio](https://wangjianjun.xyz) · [Open-source contributions](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer) · [Projects](https://github.com/passionworkeer?tab=repositories) · [Writing](https://passionworkeer.github.io/passionworkeer/)
 
-<img src="assets/logos/tencent.svg" alt="Tencent" width="115" /> &nbsp;&nbsp;
-<img src="assets/logos/kuaishou.svg" alt="Kuaishou" width="115" /> &nbsp;&nbsp;
-<img src="assets/logos/bananain.svg" alt="Bananain" width="115" />
+<img src="assets/logos/tencent.svg" alt="Tencent" width="104" /> <img src="assets/logos/kuaishou.svg" alt="Kuaishou" width="104" /> <img src="assets/logos/bananain.svg" alt="Bananain" width="104" />
 
 <sub>Current: Tencent · Previously: Kuaishou &amp; Bananain</sub>
-</div>
+
+---
 
 ## Now
 
@@ -54,8 +50,11 @@ I build agents that use tools, produce verifiable results, and fit into real wor
   <img src="https://skillicons.dev/icons?i=python,go,rust,ts,fastapi,react,redis,mysql,docker,git&amp;perline=10" alt="Python, Go, Rust, TypeScript, FastAPI, React, Redis, MySQL, Docker, Git" />
 </p>
 
-**Agent systems:** MCP · evaluation &amp; regression harnesses · tool use · RAG · trace analysis · tree-sitter / AST<br />
-**Backend &amp; data:** Go · Rust · Python · TypeScript · SQL · MySQL · Redis · ClickHouse
+**Languages:** Go · Rust · Python · TypeScript · SQL<br />
+**Agent systems:** MCP · tool use · RAG (BM25 + FAISS hybrid retrieval) · LangGraph · NLI citation gating · evaluation &amp; regression harnesses · trace analysis · tree-sitter / AST<br />
+**Backend &amp; data:** FastAPI · MySQL · Redis · ClickHouse<br />
+**Product &amp; design tooling:** React · TypeScript · Figma (structured editing) · Adobe UXP plugins<br />
+**Testing &amp; delivery:** Playwright · pytest · Docker · Git · GitHub Actions
 
 ## Selected recognition
 
