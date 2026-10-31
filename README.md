@@ -17,14 +17,27 @@ I build agents that use tools, produce verifiable results, and fit into real wor
 <sub>Current: Tencent · Previously: Kuaishou &amp; Bananain</sub>
 </div>
 
-## Recent open-source contribution
+## Recent open-source contributions
+
+<img src="assets/logos/opendal.svg" alt="Apache OpenDAL" width="112" align="left" />
+
+**[Apache OpenDAL #8429 — avoid initializing unused writers on abort](https://github.com/apache/opendal/pull/8429)**<br/>
+**Merged on October 30, 2026** · Rust · [apache/opendal](https://github.com/apache/opendal)
+
+Aborting a lazy Fs writer no longer initializes its inner writer, so cancelling before the first write can no longer truncate an existing file or create the target and its parents. Added seven regression tests against real temporary filesystems; the official filesystem behavior suite (130 tests) passes with and without `atomic_write_dir`.
+
+<br clear="left" />
 
 <img src="assets/logos/nushell.png" alt="Nushell" width="32" align="left" />
 
-**[Nushell #19309 — honor negated character classes](https://github.com/nushell/nushell/pull/19309)**<br/>
-**Merged on October 25, 2026** · Rust
+**[Nushell #19348 — traverse explicit relative paths](https://github.com/nushell/nushell/pull/19348)**<br/>
+**Merged on October 29, 2026** · Rust · [nushell/nushell](https://github.com/nushell/nushell)
 
-Fixed negated character classes in the experimental `dc-glob` backend: `[!f]*` now excludes names beginning with `f`. Added regression coverage for traversal, ranges, Unicode, and case handling.
+Fixed explicit relative paths in the experimental `dc-glob` backend: patterns such as `./*.txt`, `../*.txt`, and `../**` now search the intended directory, and `.` / `..` return their matching directory.
+
+<br clear="left" />
+
+<sub>Also merged recently: [MCP Rust SDK #1382](https://github.com/modelcontextprotocol/rust-sdk/pull/1382) — Streamable HTTP matches explicit media types and honors `Accept` quality values (Oct 30) · [Nushell #19309](https://github.com/nushell/nushell/pull/19309) — `dc-glob` honors negated character classes (Oct 25).</sub>
 
 ## Experience
 
