@@ -48,6 +48,8 @@
   .caption { display: block; margin-top: 8px; color: var(--muted); font-size: 0.9rem; }
   ul { margin: 8px 0; padding-left: 20px; }
   li { margin: 4px 0; }
+  .toolbox { list-style: none; padding-left: 0; }
+  .toolbox li { margin: 6px 0; }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
   .card {
     padding: 14px 16px;
@@ -189,10 +191,13 @@
 </ul>
 
 <h2>Toolbox</h2>
-<p>
-  <strong>Agent systems:</strong> MCP · evaluation &amp; regression harnesses · tool use · RAG · trace analysis · tree-sitter / AST<br />
-  <strong>Backend &amp; data:</strong> Go · Rust · Python · TypeScript · SQL · MySQL · Redis · ClickHouse
-</p>
+<ul class="toolbox">
+  <li><strong>Languages:</strong> Go · Rust · Python · TypeScript · SQL</li>
+  <li><strong>Agent systems:</strong> MCP · tool use · RAG (BM25 + FAISS hybrid retrieval) · LangGraph · NLI citation gating · evaluation &amp; regression harnesses · trace analysis · tree-sitter / AST</li>
+  <li><strong>Backend &amp; data:</strong> FastAPI · MySQL · Redis · ClickHouse</li>
+  <li><strong>Product &amp; design tooling:</strong> React · TypeScript · Figma (structured editing) · Adobe UXP plugins</li>
+  <li><strong>Testing &amp; delivery:</strong> Playwright · pytest · Docker · Git · GitHub Actions</li>
+</ul>
 
 <h2>Writing</h2>
 <ul>
