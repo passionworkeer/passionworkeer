@@ -22,11 +22,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      # Actions 部署不会自动跑 Jekyll，必须显式构建，_posts 才会渲染成文章页。
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 发布仓库根目录：index.html 是站点首页，_posts 由 Jekyll 渲染为文章。
-          path: '.'
+          path: './_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
