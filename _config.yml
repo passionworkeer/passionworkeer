@@ -1,0 +1,11 @@
+title: Jianjun Wang
+description: AI Agent Engineer · Evaluation · Backend Systems
+tagline: I build agents that use tools, produce verifiable results, and fit into real workflows.
+lang: en
+theme: jekyll-theme-primer
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - .github
+  - README.md

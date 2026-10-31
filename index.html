@@ -1,60 +1,206 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>王健俊 · AI Engineer</title>
+<title>Jianjun Wang · AI Agent Engineer</title>
+<meta name="description" content="AI Agent Engineer · Evaluation · Backend Systems. Backend Development Intern at Tencent; contributor to Apache OpenDAL, MCP Rust SDK, and Nushell.">
 <style>
-body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 820px; margin: 56px auto; padding: 0 22px; line-height: 1.7; color: #18181b; }
-h1 { margin-bottom: 8px; }
-h2 { margin-top: 34px; }
-.muted { color: #71717a; }
-.links a { margin-right: 16px; }
-.card { margin: 14px 0; padding: 16px 18px; border: 1px solid #e4e4e7; border-radius: 12px; }
-.card a { font-weight: 650; text-decoration: none; color: #18181b; }
-.card p { margin: 6px 0 0; color: #52525b; }
+  :root {
+    --bg: #ffffff;
+    --fg: #18181b;
+    --muted: #6b7280;
+    --line: #e4e4e7;
+    --card: #fafafa;
+    --accent: #1e54e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #8b949e;
+      --line: #30363d;
+      --card: #161b22;
+      --accent: #7aa2f7;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    max-width: 860px;
+    padding: 56px 22px 72px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    color: var(--fg);
+    background: var(--bg);
+  }
+  h1 { margin: 0 0 6px; font-size: 2rem; letter-spacing: -0.02em; }
+  h2 { margin: 40px 0 12px; font-size: 1.15rem; letter-spacing: -0.01em; }
+  a { color: var(--accent); }
+  .tagline { margin: 0; font-weight: 600; }
+  .meta { margin: 6px 0 0; color: var(--muted); }
+  .lede { margin: 14px 0 0; }
+  .links { margin: 18px 0 0; }
+  .links a { margin-right: 18px; font-weight: 600; text-decoration: none; }
+  .links a:hover { text-decoration: underline; }
+  .logos { margin: 22px 0 6px; }
+  .logos img { vertical-align: middle; margin-right: 10px; }
+  .caption { display: block; margin-top: 8px; color: var(--muted); font-size: 0.9rem; }
+  ul { margin: 8px 0; padding-left: 20px; }
+  li { margin: 4px 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+  .card {
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--card);
+  }
+  .card h3 { margin: 0 0 4px; font-size: 1rem; }
+  .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  .card a { font-weight: 650; text-decoration: none; }
+  .card a:hover { text-decoration: underline; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .entry { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .entry:last-child { border-bottom: none; }
+  .entry img { flex: 0 0 auto; margin-top: 4px; }
+  .entry .when { color: var(--muted); font-size: 0.85rem; }
+  code { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 0.9em; }
+  hr { margin: 40px 0 16px; border: none; border-top: 1px solid var(--line); }
+  footer { color: var(--muted); font-size: 0.88rem; }
 </style>
 </head>
 <body>
-<h1>王健俊 · Jianjun Wang</h1>
-<p><strong>AI Engineer · Agent / Eval / Backend</strong></p>
-<p class="muted">深圳技术大学 · 数据科学与大数据技术 · 目前在快手主站技术部实习</p>
+
+<h1>Jianjun Wang</h1>
+<p class="tagline">AI Agent Engineer · Evaluation · Backend Systems</p>
+<p class="meta">Backend Development Intern @ Tencent · Data Science @ Shenzhen Technology University</p>
+<p class="lede">I build agents that use tools, produce verifiable results, and fit into real workflows.</p>
 
 <p class="links">
+  <a href="https://wangjianjun.xyz">Portfolio</a>
   <a href="https://github.com/passionworkeer">GitHub</a>
-  <a href="https://resume.wangjianjun.xyz">Portfolio</a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer">Contributions</a>
+  <a href="https://github.com/passionworkeer?tab=repositories">Projects</a>
 </p>
 
-<h2>现在在做什么</h2>
-<p>关注 Agent 工程、评测与后端系统，尤其是可复现的数据集、结构/视觉证据、Judge、诊断与回归闭环。</p>
+<p class="logos">
+  <img src="assets/logos/tencent.svg" alt="Tencent" width="115" />
+  <img src="assets/logos/kuaishou.svg" alt="Kuaishou" width="115" />
+  <img src="assets/logos/bananain.svg" alt="Bananain" width="115" />
+  <span class="caption">Current: Tencent · Previously: Kuaishou &amp; Bananain</span>
+</p>
 
-<h2>公开项目</h2>
-<div class="card">
-  <a href="https://github.com/passionworkeer/attrax">Attrax · 火鹰合规</a>
-  <p>跨境电商合规风险扫描：视觉理解、法规知识库、引用验证与报告生成。</p>
-</div>
-<div class="card">
-  <a href="https://github.com/passionworkeer/LabMemory">LabMemory · 晶研智流</a>
-  <p>面向研发实验场景的可信决策记忆与行动治理系统。</p>
-</div>
-<div class="card">
-  <a href="https://github.com/passionworkeer/obsidian-shared-memory-bus">Shared Memory Bus</a>
-  <p>面向 Codex、Claude Code 等 MCP Agent 的本地优先共享记忆运行时。</p>
-</div>
-<div class="card">
-  <a href="https://github.com/passionworkeer/qingtu-image-compressor">QingTu · 轻图</a>
-  <p>macOS / Windows 本地批量图片压缩工具，强调隐私、安全与跨平台交付。</p>
+<h2>Now</h2>
+<ul>
+  <li><strong>Backend Development Intern @ Tencent</strong> — monitoring data services: ingestion, analytical queries, usage metering, and data consistency.</li>
+  <li><strong>Upstream Rust</strong> — fixes and regression coverage for storage and agent-transport internals: Apache OpenDAL, MCP Rust SDK, Nushell.</li>
+</ul>
+
+<h2>Recent open-source contributions</h2>
+
+<div class="entry">
+  <img src="assets/logos/opendal.svg" alt="Apache OpenDAL" width="72" />
+  <div>
+    <a href="https://github.com/apache/opendal/pull/8429">Apache OpenDAL #8429 — avoid initializing unused writers on abort</a>
+    <div class="when">Merged Oct 30, 2026 · Rust</div>
+    <div>Aborting a lazy Fs writer no longer initializes its inner writer, so cancelling before the first write cannot truncate an existing file or create the target. Seven new tests against real temporary filesystems; the official filesystem behavior suite (130 tests) passes with and without <code>atomic_write_dir</code>.</div>
+  </div>
 </div>
 
-<h2>经历</h2>
-<p><strong>快手 · AI Engineer Intern</strong> · 2026.09–至今</p>
-<p><strong>蕉内 · PM（AI / Agent）</strong> · 2026.05–2026.09</p>
-<p><strong>深圳麟远科技 · AI Full-Stack</strong> · 2025.10–2025.12</p>
+<div class="entry">
+  <img src="assets/logos/nushell.png" alt="Nushell" width="24" />
+  <div>
+    <a href="https://github.com/modelcontextprotocol/rust-sdk/pull/1382">MCP Rust SDK #1382 — match explicit HTTP media types and Accept quality values</a>
+    <div class="when">Merged Oct 30, 2026 · Rust</div>
+    <div>Streamable HTTP parses complete media-type essences case-insensitively, inspects every <code>Accept</code> field value, and honors quality weights (RFC 9110).</div>
+  </div>
+</div>
 
-<h2>近期奖项</h2>
-<p>星瀚杯法律 AI 挑战赛亚军（二等奖） · 飞书 AI 先锋未来人才大赛年度 40 强 · 抖音 AI 黑客松赛道三二等奖</p>
+<div class="entry">
+  <img src="assets/logos/nushell.png" alt="Nushell" width="24" />
+  <div>
+    <a href="https://github.com/nushell/nushell/pull/19348">Nushell #19348 — traverse explicit relative paths</a>
+    <div class="when">Merged Oct 29, 2026 · Rust</div>
+    <div>Experimental <code>dc-glob</code> now searches the intended directory for <code>./*.txt</code>, <code>../*.txt</code>, and <code>../**</code>.</div>
+  </div>
+</div>
 
-<hr>
-<p class="muted">Last updated: 2026-09-21</p>
+<div class="entry">
+  <img src="assets/logos/nushell.png" alt="Nushell" width="24" />
+  <div>
+    <a href="https://github.com/nushell/nushell/pull/19309">Nushell #19309 — honor negated character classes</a>
+    <div class="when">Merged Oct 25, 2026 · Rust</div>
+    <div><code>[!f]*</code> now excludes names beginning with <code>f</code>, with regression coverage for traversal, ranges, Unicode, and case handling.</div>
+  </div>
+</div>
+
+<h2>Experience</h2>
+<table>
+  <thead>
+    <tr><th>When</th><th>Role</th><th>Focus</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Oct 2026–present</td>
+      <td><strong>Tencent</strong> · Backend Development Intern</td>
+      <td>Monitoring data services: ingestion, analytical queries, usage metering, and data consistency.</td>
+    </tr>
+    <tr>
+      <td>Aug–Oct 2026</td>
+      <td><strong>Kuaishou</strong> · Agent Development Intern</td>
+      <td>Design-agent evaluation, structured Figma editing, MCP integration, and failure diagnosis.</td>
+    </tr>
+    <tr>
+      <td>Mar–Sep 2026</td>
+      <td><strong>RepoMind</strong> · Tencent × SZTU industry project</td>
+      <td>Coding-agent trace analysis and evaluation, code retrieval, and incremental indexing.</td>
+    </tr>
+    <tr>
+      <td>Mar–Jul 2026</td>
+      <td><strong>Bananain</strong> · AI Application Engineer</td>
+      <td>AIGC visual workflows, design plugins, and enterprise agent integrations.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Selected projects</h2>
+<div class="grid">
+  <div class="card">
+    <h3><a href="https://github.com/passionworkeer/latex-resume-skill">LaTeX Resume Skill</a></h3>
+    <p>Evidence-based resume editing, 20 LaTeX templates, a visual editor with real PDF previews, and content/layout checks.</p>
+  </div>
+  <div class="card">
+    <h3><a href="https://github.com/passionworkeer/obsidian-shared-memory-bus">yt · Shared Memory Bus</a></h3>
+    <p>A local-first MCP runtime that shares structured memory and retrieval across AI tools.</p>
+  </div>
+  <div class="card">
+    <h3><a href="https://github.com/passionworkeer/attrax">Attrax / CompliPilot</a></h3>
+    <p>Product-image-based compliance research with source-linked findings and exportable evidence.</p>
+  </div>
+</div>
+
+<h2>Selected recognition</h2>
+<ul>
+  <li><strong>Runner-up (Second Prize)</strong> — 2nd Xinghan Cup · National Legal AI Innovation Challenge · CompliPilot · 2026.</li>
+  <li><strong>Track 3, Second Prize</strong> — Douyin AI Changemakers 2026 Hackathon League · TwinBuddy · 2026.</li>
+  <li><strong>Annual Top 40 · team lead</strong> — 2026 AI Pioneer Future Talent Competition (Feishu × DI-IDEA) · LabMemory · 2026.</li>
+</ul>
+
+<h2>Toolbox</h2>
+<p>
+  <strong>Agent systems:</strong> MCP · evaluation &amp; regression harnesses · tool use · RAG · trace analysis · tree-sitter / AST<br />
+  <strong>Backend &amp; data:</strong> Go · Rust · Python · TypeScript · SQL · MySQL · Redis · ClickHouse
+</p>
+
+<h2>Writing</h2>
+<ul>
+  <li><a href="2026/05/11/interview-retrospective-7-interviews-4-offers/">Interview retrospective: 7 interviews in 5 days, 4 offers</a> <span class="when">· May 11, 2026 · in Chinese</span></li>
+</ul>
+
+<hr />
+<footer>Last updated: 2026-10-31 · This page mirrors my <a href="https://github.com/passionworkeer/passionworkeer">GitHub profile README</a>.</footer>
+
 </body>
 </html>

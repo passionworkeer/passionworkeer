@@ -25,7 +25,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_posts'
+          # 发布仓库根目录：index.html 是站点首页，_posts 由 Jekyll 渲染为文章。
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
