@@ -63,12 +63,6 @@ I build agents that use tools, produce verifiable results, and fit into real wor
 **Agent &amp; data:** MCP · RAG (BM25 + FAISS hybrid) · evaluation and regression harnesses · trace analysis · tree-sitter / AST · FastAPI · MySQL · Redis · ClickHouse<br />
 **Delivery:** React · TypeScript · Figma · Adobe UXP · Playwright · pytest · Docker · GitHub Actions
 
-## Recognition
-
-- **Runner-up (Second Prize)** — 2nd Xinghan Cup · National Legal AI Innovation Challenge · CompliPilot · 2026.
-- **Track 3, Second Prize** — Douyin AI Changemakers 2026 Hackathon League · TwinBuddy · 2026.
-- **Annual Top 40 · team lead** — 2026 AI Pioneer Future Talent Competition (Feishu × DI-IDEA) · LabMemory · 2026.
-
 ## Contribution activity
 
 <p align="center">
