@@ -13,19 +13,28 @@ I build agents that use tools, produce verifiable results, and fit into real wor
 
 ---
 
-## Now
+## Contributing to
 
-- **Backend Development Intern @ Tencent** — monitoring data services: ingestion, analytical queries, usage metering, and data consistency.
-- **Upstream Rust** — fixes and regression coverage for storage and agent-transport internals: Apache OpenDAL, MCP Rust SDK, Nushell.
-
-## Recent open-source contributions
-
-| Project | Change | Merged |
+| Project | Area | About |
 | --- | --- | --- |
-| <img src="assets/logos/opendal.svg" alt="Apache OpenDAL" width="88" /><br /><sub>**Apache OpenDAL**</sub> | [#8429 — avoid initializing unused writers on abort](https://github.com/apache/opendal/pull/8429). Aborting a lazy Fs writer no longer initializes its inner writer, so cancelling before the first write cannot truncate an existing file or create the target. Seven new tests against real temporary filesystems; the official filesystem behavior suite (130 tests) passes with and without `atomic_write_dir`. | **Oct 30, 2026** |
-| <sub>**MCP Rust SDK**</sub> | [#1382 — match explicit HTTP media types and Accept quality values](https://github.com/modelcontextprotocol/rust-sdk/pull/1382). Streamable HTTP now parses complete media-type essences case-insensitively, inspects every `Accept` field value, and honors quality weights (RFC 9110). 19 real HTTP scenarios in one regression test; 378 library tests pass. | **Oct 30, 2026** |
-| <img src="assets/logos/nushell.png" alt="Nushell" width="24" /><br /><sub>**Nushell**</sub> | [#19348 — traverse explicit relative paths](https://github.com/nushell/nushell/pull/19348). Experimental `dc-glob` now searches the intended directory for `./*.txt`, `../*.txt`, and `../**`, and returns the matching directory for `.` and `..`. | **Oct 29, 2026** |
-| <img src="assets/logos/nushell.png" alt="Nushell" width="24" /><br /><sub>**Nushell**</sub> | [#19309 — honor negated character classes](https://github.com/nushell/nushell/pull/19309). `[!f]*` now excludes names beginning with `f`, with regression coverage for traversal, ranges, Unicode, and case handling. | **Oct 25, 2026** |
+| **Nushell** | Rust · shell | A new type of shell — pipelines for structured data on every platform |
+| **Apache OpenDAL** | Rust · storage | Data access layer that frees users from vendor lock-in |
+| **MCP Rust SDK** | Rust · agent transport | Official Rust SDK for the Model Context Protocol |
+| **QwenPaw** | Python · agent runtime | Personal AI assistant: multi-channel, plugins, and MCP tools |
+| **Langfuse · LightRAG · mem0** | Python · LLM infrastructure | Observability and evaluation, graph RAG, and agent memory |
+
+<sub>**5 fixes merged upstream in October 2026** — Nushell (3), Apache OpenDAL (1), MCP Rust SDK (1). [All pull requests](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer)</sub>
+
+<details>
+<summary>Merged fixes</summary>
+
+- Nushell [#19345](https://github.com/nushell/nushell/pull/19345) — reject command and alias names that the parser reads as numbers.
+- Nushell [#19348](https://github.com/nushell/nushell/pull/19348) — experimental `dc-glob` traverses explicit relative paths.
+- Nushell [#19309](https://github.com/nushell/nushell/pull/19309) — `dc-glob` honors negated character classes.
+- Apache OpenDAL [#8429](https://github.com/apache/opendal/pull/8429) — aborting a lazy Fs writer no longer truncates or creates the target file.
+- MCP Rust SDK [#1382](https://github.com/modelcontextprotocol/rust-sdk/pull/1382) — streamable HTTP matches explicit media types and `Accept` quality values.
+
+</details>
 
 ## Experience
 
@@ -51,15 +60,10 @@ I build agents that use tools, produce verifiable results, and fit into real wor
 </p>
 
 **Languages:** Go · Rust · Python · TypeScript · SQL<br />
-**Agent systems:** MCP · tool use · RAG (BM25 + FAISS hybrid retrieval) · LangGraph · NLI citation gating · evaluation &amp; regression harnesses · trace analysis · tree-sitter / AST<br />
-**Backend &amp; data:** FastAPI · MySQL · Redis · ClickHouse<br />
-**Product &amp; design tooling:** React · TypeScript · Figma (structured editing) · Adobe UXP plugins<br />
-**Testing &amp; delivery:** Playwright · pytest · Docker · Git · GitHub Actions
+**Agent &amp; data:** MCP · RAG (BM25 + FAISS hybrid) · evaluation and regression harnesses · trace analysis · tree-sitter / AST · FastAPI · MySQL · Redis · ClickHouse<br />
+**Delivery:** React · TypeScript · Figma · Adobe UXP · Playwright · pytest · Docker · GitHub Actions
 
-## Selected recognition
-
-<img src="assets/logos/feishu.svg" alt="Feishu — competition platform" width="92" /> &nbsp;
-<img src="assets/logos/douyin.svg" alt="Douyin — hackathon organizer" width="92" />
+## Recognition
 
 - **Runner-up (Second Prize)** — 2nd Xinghan Cup · National Legal AI Innovation Challenge · CompliPilot · 2026.
 - **Track 3, Second Prize** — Douyin AI Changemakers 2026 Hackathon League · TwinBuddy · 2026.
