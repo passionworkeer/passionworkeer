@@ -21,25 +21,6 @@ I build agents that use tools, produce verifiable results, and fit into real wor
 | **Apache OpenDAL** | Rust · storage | Data access layer that frees users from vendor lock-in | 1 |
 | **MCP Rust SDK** | Rust · agent transport | Official Rust SDK for the Model Context Protocol | 1 |
 
-[★ 40.8k Stars](https://github.com/nushell/nushell/stargazers) · [2.3k Forks](https://github.com/nushell/nushell/forks) · <sub>Nushell repository snapshot: 2026-11-01</sub>
-
-<a href="https://trendshift.io/repositories/2065"><img src="assets/logos/nushell-trending.svg" alt="Nushell historical GitHub Trending daily rank #2, recorded by Trendshift" width="250" /></a>
-
-<sub>**7 pull requests merged upstream in October 2026.** [All contributions](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer)</sub>
-
-<details>
-<summary>Merged pull requests</summary>
-
-- Nushell [#19345](https://github.com/nushell/nushell/pull/19345) — reject command and alias names that the parser reads as numbers.
-- Nushell docs [#2276](https://github.com/nushell/nushell.github.io/pull/2276) — zh-CN book translations, examples, and links.
-- Nushell [#19348](https://github.com/nushell/nushell/pull/19348) — experimental `dc-glob` traverses explicit relative paths.
-- Nushell docs [#2274](https://github.com/nushell/nushell.github.io/pull/2274) — add missing zh-CN book chapters.
-- Nushell [#19309](https://github.com/nushell/nushell/pull/19309) — `dc-glob` honors negated character classes.
-- Apache OpenDAL [#8429](https://github.com/apache/opendal/pull/8429) — aborting a lazy Fs writer no longer truncates or creates the target file.
-- MCP Rust SDK [#1382](https://github.com/modelcontextprotocol/rust-sdk/pull/1382) — streamable HTTP matches explicit media types and `Accept` quality values.
-
-</details>
-
 ## Experience
 
 | When | Role | Focus |
