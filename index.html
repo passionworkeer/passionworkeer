@@ -94,49 +94,52 @@
   <span class="caption">Current: Tencent · Previously: Kuaishou &amp; Bananain</span>
 </p>
 
-<h2>Now</h2>
-<ul>
-  <li><strong>Backend Development Intern @ Tencent</strong> — monitoring data services: ingestion, analytical queries, usage metering, and data consistency.</li>
-  <li><strong>Upstream Rust</strong> — fixes and regression coverage for storage and agent-transport internals: Apache OpenDAL, MCP Rust SDK, Nushell.</li>
-</ul>
+<h2>Contributing to</h2>
+<table>
+  <thead>
+    <tr><th>Project</th><th>Area</th><th>About</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Nushell</strong></td>
+      <td>Rust · shell</td>
+      <td>A new type of shell — pipelines for structured data on every platform</td>
+    </tr>
+    <tr>
+      <td><strong>Apache OpenDAL</strong></td>
+      <td>Rust · storage</td>
+      <td>Data access layer that frees users from vendor lock-in</td>
+    </tr>
+    <tr>
+      <td><strong>MCP Rust SDK</strong></td>
+      <td>Rust · agent transport</td>
+      <td>Official Rust SDK for the Model Context Protocol</td>
+    </tr>
+    <tr>
+      <td><strong>QwenPaw</strong></td>
+      <td>Python · agent runtime</td>
+      <td>Personal AI assistant: multi-channel, plugins, and MCP tools</td>
+    </tr>
+    <tr>
+      <td><strong>Langfuse · LightRAG · mem0</strong></td>
+      <td>Python · LLM infrastructure</td>
+      <td>Observability and evaluation, graph RAG, and agent memory</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2>Recent open-source contributions</h2>
+<p class="meta"><strong>5 fixes merged upstream in October 2026</strong> — Nushell (3), Apache OpenDAL (1), MCP Rust SDK (1). <a href="https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer">All pull requests</a></p>
 
-<div class="entry">
-  <img src="assets/logos/opendal.svg" alt="Apache OpenDAL" width="72" />
-  <div>
-    <a href="https://github.com/apache/opendal/pull/8429">Apache OpenDAL #8429 — avoid initializing unused writers on abort</a>
-    <div class="when">Merged Oct 30, 2026 · Rust</div>
-    <div>Aborting a lazy Fs writer no longer initializes its inner writer, so cancelling before the first write cannot truncate an existing file or create the target. Seven new tests against real temporary filesystems; the official filesystem behavior suite (130 tests) passes with and without <code>atomic_write_dir</code>.</div>
-  </div>
-</div>
-
-<div class="entry">
-  <img src="assets/logos/nushell.png" alt="Nushell" width="24" />
-  <div>
-    <a href="https://github.com/modelcontextprotocol/rust-sdk/pull/1382">MCP Rust SDK #1382 — match explicit HTTP media types and Accept quality values</a>
-    <div class="when">Merged Oct 30, 2026 · Rust</div>
-    <div>Streamable HTTP parses complete media-type essences case-insensitively, inspects every <code>Accept</code> field value, and honors quality weights (RFC 9110).</div>
-  </div>
-</div>
-
-<div class="entry">
-  <img src="assets/logos/nushell.png" alt="Nushell" width="24" />
-  <div>
-    <a href="https://github.com/nushell/nushell/pull/19348">Nushell #19348 — traverse explicit relative paths</a>
-    <div class="when">Merged Oct 29, 2026 · Rust</div>
-    <div>Experimental <code>dc-glob</code> now searches the intended directory for <code>./*.txt</code>, <code>../*.txt</code>, and <code>../**</code>.</div>
-  </div>
-</div>
-
-<div class="entry">
-  <img src="assets/logos/nushell.png" alt="Nushell" width="24" />
-  <div>
-    <a href="https://github.com/nushell/nushell/pull/19309">Nushell #19309 — honor negated character classes</a>
-    <div class="when">Merged Oct 25, 2026 · Rust</div>
-    <div><code>[!f]*</code> now excludes names beginning with <code>f</code>, with regression coverage for traversal, ranges, Unicode, and case handling.</div>
-  </div>
-</div>
+<details>
+  <summary>Merged fixes</summary>
+  <ul>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19345">#19345</a> — reject command and alias names that the parser reads as numbers.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19348">#19348</a> — experimental <code>dc-glob</code> traverses explicit relative paths.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19309">#19309</a> — <code>dc-glob</code> honors negated character classes.</li>
+    <li>Apache OpenDAL <a href="https://github.com/apache/opendal/pull/8429">#8429</a> — aborting a lazy Fs writer no longer truncates or creates the target file.</li>
+    <li>MCP Rust SDK <a href="https://github.com/modelcontextprotocol/rust-sdk/pull/1382">#1382</a> — streamable HTTP matches explicit media types and <code>Accept</code> quality values.</li>
+  </ul>
+</details>
 
 <h2>Experience</h2>
 <table>
@@ -183,7 +186,7 @@
   </div>
 </div>
 
-<h2>Selected recognition</h2>
+<h2>Recognition</h2>
 <ul>
   <li><strong>Runner-up (Second Prize)</strong> — 2nd Xinghan Cup · National Legal AI Innovation Challenge · CompliPilot · 2026.</li>
   <li><strong>Track 3, Second Prize</strong> — Douyin AI Changemakers 2026 Hackathon League · TwinBuddy · 2026.</li>
@@ -193,10 +196,8 @@
 <h2>Toolbox</h2>
 <ul class="toolbox">
   <li><strong>Languages:</strong> Go · Rust · Python · TypeScript · SQL</li>
-  <li><strong>Agent systems:</strong> MCP · tool use · RAG (BM25 + FAISS hybrid retrieval) · LangGraph · NLI citation gating · evaluation &amp; regression harnesses · trace analysis · tree-sitter / AST</li>
-  <li><strong>Backend &amp; data:</strong> FastAPI · MySQL · Redis · ClickHouse</li>
-  <li><strong>Product &amp; design tooling:</strong> React · TypeScript · Figma (structured editing) · Adobe UXP plugins</li>
-  <li><strong>Testing &amp; delivery:</strong> Playwright · pytest · Docker · Git · GitHub Actions</li>
+  <li><strong>Agent &amp; data:</strong> MCP · RAG (BM25 + FAISS hybrid) · evaluation and regression harnesses · trace analysis · tree-sitter / AST · FastAPI · MySQL · Redis · ClickHouse</li>
+  <li><strong>Delivery:</strong> React · TypeScript · Figma · Adobe UXP · Playwright · pytest · Docker · GitHub Actions</li>
 </ul>
 
 <h2>Writing</h2>
@@ -205,7 +206,7 @@
 </ul>
 
 <hr />
-<footer>Last updated: 2026-10-31 · This page mirrors my <a href="https://github.com/passionworkeer/passionworkeer">GitHub profile README</a>.</footer>
+<footer>Last updated: 2026-11-01 · This page mirrors my <a href="https://github.com/passionworkeer/passionworkeer">GitHub profile README</a>.</footer>
 
 </body>
 </html>
