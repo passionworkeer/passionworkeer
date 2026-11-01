@@ -1,17 +1,4 @@
-# Wang Jianjun · 王健俊
-
-**AI Agent Engineer · Evaluation · Backend Systems**<br />
-Backend Development Intern @ **Tencent** · Data Science @ **Shenzhen Technology University**
-
-I build agents that use tools, produce verifiable results, and fit into real workflows.
-
 [Portfolio](https://wangjianjun.xyz) · [Open-source contributions](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer) · [Projects](https://github.com/passionworkeer?tab=repositories) · [Writing](https://passionworkeer.github.io/passionworkeer/)
-
-<img src="assets/logos/tencent.svg" alt="Tencent" width="104" /> <img src="assets/logos/kuaishou.svg" alt="Kuaishou" width="104" /> <img src="assets/logos/bananain.svg" alt="Bananain" width="104" />
-
-<sub>Current: Tencent · Previously: Kuaishou &amp; Bananain</sub>
-
----
 
 ## Contributing to
 
@@ -25,10 +12,10 @@ I build agents that use tools, produce verifiable results, and fit into real wor
 
 | When | Role | Focus |
 | --- | --- | --- |
-| **Oct 2026–present** | **Tencent** · Backend Development Intern | Monitoring data services: ingestion, analytical queries, usage metering, and data consistency. |
-| Aug–Oct 2026 | **Kuaishou** · Agent Development Intern | Design-agent evaluation, structured Figma editing, MCP integration, and failure diagnosis. |
+| **Oct 2026–present** | <img src="assets/logos/tencent.svg" alt="Tencent" width="72" /> · Backend Development Intern | Monitoring data services: ingestion, analytical queries, usage metering, and data consistency. |
+| Aug–Oct 2026 | <img src="assets/logos/kuaishou.svg" alt="Kuaishou" width="72" /> · Agent Development Intern | Design-agent evaluation, structured Figma editing, MCP integration, and failure diagnosis. |
 | Mar–Sep 2026 | **RepoMind** · Tencent × SZTU industry project | Coding-agent trace analysis and evaluation, code retrieval, and incremental indexing. |
-| Mar–Jul 2026 | **Bananain** · AI Application Engineer | AIGC visual workflows, design plugins, and enterprise agent integrations. |
+| Mar–Jul 2026 | <img src="assets/logos/bananain.svg" alt="Bananain" width="72" /> · AI Application Engineer | AIGC visual workflows, design plugins, and enterprise agent integrations. |
 
 ## Selected projects
 
