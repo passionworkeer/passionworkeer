@@ -15,21 +15,21 @@ I build agents that use tools, produce verifiable results, and fit into real wor
 
 ## Contributing to
 
-| Project | Area | About |
-| --- | --- | --- |
-| **Nushell** | Rust · shell | A new type of shell — pipelines for structured data on every platform |
-| **Apache OpenDAL** | Rust · storage | Data access layer that frees users from vendor lock-in |
-| **MCP Rust SDK** | Rust · agent transport | Official Rust SDK for the Model Context Protocol |
-| **QwenPaw** | Python · agent runtime | Personal AI assistant: multi-channel, plugins, and MCP tools |
-| **Langfuse · LightRAG · mem0** | Python · LLM infrastructure | Observability and evaluation, graph RAG, and agent memory |
+| Project | Area | About | Merged |
+| --- | --- | --- | --- |
+| **Nushell** | Rust · shell | A new type of shell — pipelines for structured data on every platform | 5 |
+| **Apache OpenDAL** | Rust · storage | Data access layer that frees users from vendor lock-in | 1 |
+| **MCP Rust SDK** | Rust · agent transport | Official Rust SDK for the Model Context Protocol | 1 |
 
-<sub>**5 fixes merged upstream in October 2026** — Nushell (3), Apache OpenDAL (1), MCP Rust SDK (1). [All pull requests](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer)</sub>
+<sub>**7 pull requests merged upstream in October 2026.** [All contributions](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer)</sub>
 
 <details>
-<summary>Merged fixes</summary>
+<summary>Merged pull requests</summary>
 
 - Nushell [#19345](https://github.com/nushell/nushell/pull/19345) — reject command and alias names that the parser reads as numbers.
+- Nushell docs [#2276](https://github.com/nushell/nushell.github.io/pull/2276) — zh-CN book translations, examples, and links.
 - Nushell [#19348](https://github.com/nushell/nushell/pull/19348) — experimental `dc-glob` traverses explicit relative paths.
+- Nushell docs [#2274](https://github.com/nushell/nushell.github.io/pull/2274) — add missing zh-CN book chapters.
 - Nushell [#19309](https://github.com/nushell/nushell/pull/19309) — `dc-glob` honors negated character classes.
 - Apache OpenDAL [#8429](https://github.com/apache/opendal/pull/8429) — aborting a lazy Fs writer no longer truncates or creates the target file.
 - MCP Rust SDK [#1382](https://github.com/modelcontextprotocol/rust-sdk/pull/1382) — streamable HTTP matches explicit media types and `Accept` quality values.
