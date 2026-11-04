@@ -4,9 +4,10 @@
 
 | Project | Area | About | Merged |
 | --- | --- | --- | --- |
-| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | Rust · shell | A new type of shell — pipelines for structured data on every platform | 5 |
-| **Apache OpenDAL** | Rust · storage | Data access layer that frees users from vendor lock-in | 1 |
-| **MCP Rust SDK** | Rust · agent transport | Official Rust SDK for the Model Context Protocol | 1 |
+| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | Rust · shell | Fixed command-name validation and glob traversal/matching, and updated the Chinese book | 6 (3 code · 3 docs) |
+| **[MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk)** | Rust · agent transport | Fixed Streamable HTTP media-type and Accept quality matching | 1 |
+| **[QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | Python · agent runtime | Improved plugin dependency-directory diagnostics in restricted deployments | 1 |
+| **[Apache OpenDAL](https://github.com/apache/opendal)** | Rust · storage | Fixed unintended filesystem changes when aborting an unused writer | 1 |
 
 ## Experience
 
