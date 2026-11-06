@@ -4,7 +4,7 @@
 
 | Project | Area | About | Merged |
 | --- | --- | --- | --- |
-| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | Rust · shell | Fixed command-name validation, glob traversal/matching and time-zone offsets; updated the Chinese book | 7 (4 code · 3 docs) |
+| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | Rust · shell | Fixed command-name validation, glob traversal/matching and time-zone offsets; updated the Chinese book | 7 |
 | **[MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk)** | Rust · agent transport | Fixed Streamable HTTP media-type and Accept quality matching | 1 |
 | **[QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | Python · agent runtime | Improved plugin dependency-directory diagnostics in restricted deployments | 1 |
 | **[Apache OpenDAL](https://github.com/apache/opendal)** | Rust · storage | Fixed unintended filesystem changes when aborting an unused writer | 1 |
