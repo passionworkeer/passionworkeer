@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jianjun Wang · AI Agent Engineer</title>
-<meta name="description" content="AI Agent Engineer · Evaluation · Backend Systems. Backend Development Intern at Tencent; contributor to Apache OpenDAL, MCP Rust SDK, and Nushell.">
+<meta name="description" content="AI Agent Engineer · Evaluation · Backend Systems. Backend Development Intern at Tencent; contributor to Nushell, MCP Rust SDK, LightRAG, QwenPaw, and Apache OpenDAL.">
 <style>
   :root {
     --bg: #ffffff;
@@ -103,36 +103,58 @@
     <tr>
       <td><strong>Nushell</strong></td>
       <td>Rust · shell</td>
-      <td>A new type of shell — pipelines for structured data on every platform</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td><strong>Apache OpenDAL</strong></td>
-      <td>Rust · storage</td>
-      <td>Data access layer that frees users from vendor lock-in</td>
-      <td>1</td>
+      <td>Fixed command-name validation, glob traversal/matching and time-zone offsets; updated the Chinese book</td>
+      <td>8</td>
     </tr>
     <tr>
       <td><strong>MCP Rust SDK</strong></td>
       <td>Rust · agent transport</td>
-      <td>Official Rust SDK for the Model Context Protocol</td>
+      <td>Fixed Streamable HTTP media-type and Accept quality matching</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><strong>LightRAG</strong></td>
+      <td>Python · RAG framework</td>
+      <td>Treated unreadable image-cache manifests as cache misses; preserved the query caret when the WebUI switches into multiline mode</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><strong>QwenPaw</strong></td>
+      <td>Python · agent runtime</td>
+      <td>Improved plugin dependency-directory diagnostics in restricted deployments</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><strong>Apache OpenDAL</strong></td>
+      <td>Rust · storage</td>
+      <td>Fixed unintended filesystem changes when aborting an unused writer</td>
       <td>1</td>
     </tr>
   </tbody>
 </table>
 
-<p class="meta"><strong>7 pull requests merged upstream in October 2026.</strong> <a href="https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer">All contributions</a></p>
+<p class="meta"><strong>13 merged pull requests across these five projects, plus 5 contributions carried into maintainers' upstream fixes.</strong> <a href="https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer">All contributions</a></p>
 
 <details>
-  <summary>Merged pull requests</summary>
+  <summary>Contribution details</summary>
+  <p class="meta"><strong>Merged pull requests</strong></p>
   <ul>
-    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19345">#19345</a> — reject command and alias names that the parser reads as numbers.</li>
-    <li>Nushell docs <a href="https://github.com/nushell/nushell.github.io/pull/2276">#2276</a> — zh-CN book translations, examples, and links.</li>
-    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19348">#19348</a> — experimental <code>dc-glob</code> traverses explicit relative paths.</li>
-    <li>Nushell docs <a href="https://github.com/nushell/nushell.github.io/pull/2274">#2274</a> — add missing zh-CN book chapters.</li>
-    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19309">#19309</a> — <code>dc-glob</code> honors negated character classes.</li>
-    <li>Apache OpenDAL <a href="https://github.com/apache/opendal/pull/8429">#8429</a> — aborting a lazy Fs writer no longer truncates or creates the target file.</li>
-    <li>MCP Rust SDK <a href="https://github.com/modelcontextprotocol/rust-sdk/pull/1382">#1382</a> — streamable HTTP matches explicit media types and <code>Accept</code> quality values.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19309">#19309</a> - <code>dc-glob</code> honors negated character classes.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19348">#19348</a> - experimental <code>dc-glob</code> traverses explicit relative paths.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19345">#19345</a> - reject command and alias names that the parser reads as numbers.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19434">#19434</a> - preserve time-zone offset seconds and reject malformed offsets.</li>
+    <li>Nushell docs <a href="https://github.com/nushell/nushell.github.io/pull/2274">#2274</a>, <a href="https://github.com/nushell/nushell.github.io/pull/2276">#2276</a>, <a href="https://github.com/nushell/nushell.github.io/pull/2278">#2278</a>, <a href="https://github.com/nushell/nushell.github.io/pull/2284">#2284</a> - zh-CN book chapters, translations, examples and links.</li>
+    <li>MCP Rust SDK <a href="https://github.com/modelcontextprotocol/rust-sdk/pull/1382">#1382</a> - Streamable HTTP matches explicit media types and <code>Accept</code> quality values.</li>
+    <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4241">#4241</a> - invalid-UTF-8 native image-cache manifests no longer abort Markdown extraction.</li>
+    <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4272">#4272</a> - query composer keeps the caret when switching into multiline mode.</li>
+    <li>QwenPaw <a href="https://github.com/agentscope-ai/QwenPaw/pull/8527">#8527</a> - startup diagnostics for unusable plugin dependency directories.</li>
+    <li>Apache OpenDAL <a href="https://github.com/apache/opendal/pull/8429">#8429</a> - aborting a lazy Fs writer no longer truncates or creates the target file.</li>
+  </ul>
+  <p class="meta"><strong>Carried into upstream fixes</strong> (my PRs were closed unmerged, but the work landed)</p>
+  <ul>
+    <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4110">#4110</a> and <a href="https://github.com/HKUDS/LightRAG/pull/4111">#4111</a> - graph relation name resolution; six commits carried unchanged into <a href="https://github.com/HKUDS/LightRAG/pull/4395">#4395</a> (merged 2026-11-13), with the maintainer asking that the author keep the credit.</li>
+    <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4244">#4244</a> - worker-level pipeline tests ported into <a href="https://github.com/HKUDS/LightRAG/pull/4245">#4245</a> (merged 2026-11-13) with <code>Co-authored-by: passionworkeer</code>.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19513">#19513</a> and <a href="https://github.com/nushell/nushell/pull/19518">#19518</a> - <code>input listen</code> output type and empty <code>--types</code> handling; folded into the maintainer's <a href="https://github.com/nushell/nushell/pull/19526">#19526</a> (merged 2026-11-13), which also closes my issue <a href="https://github.com/nushell/nushell/issues/19520">#19520</a>.</li>
   </ul>
 </details>
 
@@ -194,7 +216,7 @@
 </ul>
 
 <hr />
-<footer>Last updated: 2026-11-01 · This page mirrors my <a href="https://github.com/passionworkeer/passionworkeer">GitHub profile README</a>.</footer>
+<footer>Last updated: 2026-11-14 · Contribution facts mirror my <a href="https://github.com/passionworkeer/passionworkeer">GitHub profile README</a>.</footer>
 
 </body>
 </html>
