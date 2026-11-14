@@ -2,13 +2,15 @@
 
 ## Contributing to
 
-| Project | Area | About | Merged |
-| --- | --- | --- | --- |
-| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | Rust · shell | Fixed command-name validation, glob traversal/matching and time-zone offsets; updated the Chinese book | 8 |
-| **[MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk)** | Rust · agent transport | Fixed Streamable HTTP media-type and Accept quality matching | 1 |
-| **[LightRAG](https://github.com/HKUDS/LightRAG)** | Python · RAG framework | Treated unreadable image-cache manifests as cache misses so parsing no longer aborts early, and preserved the query caret when the WebUI switches into multiline mode | 2 |
-| **[QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | Python · agent runtime | Improved plugin dependency-directory diagnostics in restricted deployments | 1 |
-| **[Apache OpenDAL](https://github.com/apache/opendal)** | Rust · storage | Fixed unintended filesystem changes when aborting an unused writer | 1 |
+| Project | Area | About | Merged | Carried |
+| --- | --- | --- | --- | --- |
+| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | Rust · shell | Fixed command-name validation, glob traversal/matching and time-zone offsets; updated the Chinese book | 8 | 2 |
+| **[MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk)** | Rust · agent transport | Fixed Streamable HTTP media-type and Accept quality matching | 1 | — |
+| **[LightRAG](https://github.com/HKUDS/LightRAG)** | Python · RAG framework | Treated unreadable image-cache manifests as cache misses so parsing no longer aborts early, and preserved the query caret when the WebUI switches into multiline mode | 2 | 3 |
+| **[QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | Python · agent runtime | Improved plugin dependency-directory diagnostics in restricted deployments | 1 | — |
+| **[Apache OpenDAL](https://github.com/apache/opendal)** | Rust · storage | Fixed unintended filesystem changes when aborting an unused writer | 1 | — |
+
+<sub>Carried: my PRs folded into maintainers' merged PRs [#4395](https://github.com/HKUDS/LightRAG/pull/4395), [#4245](https://github.com/HKUDS/LightRAG/pull/4245) and [#19526](https://github.com/nushell/nushell/pull/19526). GitHub still marks those PRs unmerged, so they are counted separately.</sub>
 
 ## Experience
 
