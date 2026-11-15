@@ -2,13 +2,15 @@
 
 ## Contributing to
 
-I work upstream on the Rust and Python infrastructure behind agent and data systems. Most fixes start with a failing edge case — a shell parser, a transport header, a cache manifest — and end with a regression test and the review that follows it.
+These are upstream projects I contribute to, not projects I own; the badges show each repository's own live star and fork counts, not personal metrics. My work is mostly correctness at the boundaries of shells, RAG pipelines and agent runtimes: reproduce a hard-to-hit edge case, narrow the fix to its cause, and add regression coverage where it fits. The same habit runs through the rest of my work, from agent evaluation and failure diagnosis to backend data services for ingestion, analytical queries and usage metering.
 
-| Project | Project stars | What I work on |
+| Upstream project | Project scale | What I work on |
 | --- | --- | --- |
-| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | ![Nushell stars](https://img.shields.io/github/stars/nushell/nushell?style=flat-square&label=stars) | Command-name validation, relative-path glob traversal and negated character classes, and time-zone offsets in date conversions; also the Chinese book. |
-| **[LightRAG](https://github.com/HKUDS/LightRAG)** | ![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat-square&label=stars) | Unreadable image-cache manifests treated as cache misses so Markdown extraction no longer aborts before the document is read; caret handling when the WebUI switches to multiline input. |
-| **[QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | ![QwenPaw stars](https://img.shields.io/github/stars/agentscope-ai/QwenPaw?style=flat-square&label=stars) | Startup diagnostics for unusable plugin dependency directories in restricted deployments, while keeping read-only roots with prepared subdirectories working. |
+| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[nushell/nushell](https://github.com/nushell/nushell)** | ![nushell stars](https://img.shields.io/github/stars/nushell/nushell?style=for-the-badge&label=stars) ![nushell forks](https://img.shields.io/github/forks/nushell/nushell?style=for-the-badge&label=forks) | Command-name validation against numeric, duration, date and range literals; relative-path traversal and negated character classes in the experimental glob command; time-zone offsets with seconds in date conversions; and documentation updates to the Chinese-language book. |
+| **[HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)** | ![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=for-the-badge&label=stars) ![LightRAG forks](https://img.shields.io/github/forks/HKUDS/LightRAG?style=for-the-badge&label=forks) | Unreadable image-cache manifests treated as cache misses so document parsing no longer aborts early; regression tests and an initial fix for the WebUI multiline-input caret race, whose final implementation was completed by the maintainer. |
+| **[agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | ![QwenPaw stars](https://img.shields.io/github/stars/agentscope-ai/QwenPaw?style=for-the-badge&label=stars) ![QwenPaw forks](https://img.shields.io/github/forks/agentscope-ai/QwenPaw?style=for-the-badge&label=forks) | Startup diagnostics for unusable plugin dependency directories in restricted deployments, while keeping read-only roots with prepared subdirectories working. |
+
+Other upstream projects I contribute to are pinned on this profile, where GitHub renders their star and fork numbers natively; the [open-source contributions](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer) link opens the full, verifiable record.
 
 ## Experience
 
