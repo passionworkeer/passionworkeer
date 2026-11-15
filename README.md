@@ -2,15 +2,13 @@
 
 ## Contributing to
 
-| Project | Area | About | Merged | Carried |
-| --- | --- | --- | --- | --- |
-| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | Rust · shell | Fixed command-name validation, glob traversal/matching and time-zone offsets; updated the Chinese book | 8 | 2 |
-| **[MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk)** | Rust · agent transport | Fixed Streamable HTTP media-type and Accept quality matching | 1 | — |
-| **[LightRAG](https://github.com/HKUDS/LightRAG)** | Python · RAG framework | Treated unreadable image-cache manifests as cache misses so parsing no longer aborts early, and preserved the query caret when the WebUI switches into multiline mode | 2 | 3 |
-| **[QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | Python · agent runtime | Improved plugin dependency-directory diagnostics in restricted deployments | 1 | — |
-| **[Apache OpenDAL](https://github.com/apache/opendal)** | Rust · storage | Fixed unintended filesystem changes when aborting an unused writer | 1 | — |
+I work upstream on the Rust and Python infrastructure behind agent and data systems. Most fixes start with a failing edge case — a shell parser, a transport header, a cache manifest — and end with a regression test and the review that follows it.
 
-<sub>Carried: my PRs folded into maintainers' merged PRs [#4395](https://github.com/HKUDS/LightRAG/pull/4395), [#4245](https://github.com/HKUDS/LightRAG/pull/4245) and [#19526](https://github.com/nushell/nushell/pull/19526). GitHub still marks those PRs unmerged, so they are counted separately.</sub>
+| Project | Project stars | What I work on |
+| --- | --- | --- |
+| <img src="assets/logos/nushell.svg" alt="" width="22" /> **[Nushell](https://github.com/nushell/nushell)** | ![Nushell stars](https://img.shields.io/github/stars/nushell/nushell?style=flat-square&label=stars) | Command-name validation, relative-path glob traversal and negated character classes, and time-zone offsets in date conversions; also the Chinese book. |
+| **[LightRAG](https://github.com/HKUDS/LightRAG)** | ![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat-square&label=stars) | Unreadable image-cache manifests treated as cache misses so Markdown extraction no longer aborts before the document is read; caret handling when the WebUI switches to multiline input. |
+| **[QwenPaw](https://github.com/agentscope-ai/QwenPaw)** | ![QwenPaw stars](https://img.shields.io/github/stars/agentscope-ai/QwenPaw?style=flat-square&label=stars) | Startup diagnostics for unusable plugin dependency directories in restricted deployments, while keeping read-only roots with prepared subdirectories working. |
 
 ## Experience
 
