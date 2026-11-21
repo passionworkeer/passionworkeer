@@ -24,7 +24,5 @@ Recently, I've been actively [contributing to open source](https://github.com/pu
 ### Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,rust,go,fastapi,react,redis,mysql,docker,git&amp;perline=10" alt="Python, TypeScript, Rust, Go, FastAPI, React, Redis, MySQL, Docker, Git" width="500" />
+  <img src="https://skillicons.dev/icons?i=python,ts,rust,go,fastapi,nodejs,react,nextjs,redis,mysql,docker,git,githubactions,linux,figma,ps&amp;perline=8" alt="Python, TypeScript, Rust, Go, FastAPI, Node.js, React, Next.js, Redis, MySQL, Docker, Git, GitHub Actions, Linux, Figma, Photoshop" width="440" />
 </p>
-
-<p align="center">MCP · RAG · LangGraph · Evaluation · Trace analysis</p>
