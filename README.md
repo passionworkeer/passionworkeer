@@ -7,9 +7,9 @@
 <table align="center" width="100%">
   <thead>
     <tr>
-      <th align="center" width="18%">Project</th>
-      <th align="left" width="68%">About</th>
-      <th align="center" width="14%">Stars</th>
+      <th align="center" width="130">Project</th>
+      <th align="left" width="580">About</th>
+      <th align="center" width="100">Stars</th>
     </tr>
   </thead>
   <tbody>
@@ -38,8 +38,8 @@
 <table align="center" width="100%">
   <thead>
     <tr>
-      <th align="center" width="18%">Company</th>
-      <th align="left" width="82%">Experience</th>
+      <th align="center" width="130">Company</th>
+      <th align="left" width="680">Experience</th>
     </tr>
   </thead>
   <tbody>
