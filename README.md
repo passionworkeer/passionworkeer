@@ -1,6 +1,6 @@
 <h1 align="center">Jianjun Wang · 王健俊</h1>
 
-I'm a Data Science undergraduate at **Shenzhen Technology University**. I build AI agents and backend systems, with a focus on evaluation, tool use, and reliability.
+I enjoy building AI agents and backend systems, exploring developer tools, and making software more reliable. I'm currently a **Backend Development Intern at Tencent**.
 
 Recently, I've been actively [contributing to open source](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer).
 
