@@ -40,11 +40,7 @@ I enjoy building AI agents and backend systems, exploring developer tools, and m
     <td valign="top" width="46%">
       <h4>Most Used Languages</h4>
       <a href="https://github.com/passionworkeer?tab=repositories">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&amp;layout=compact&amp;hide_border=true&amp;hide_title=true&amp;hide=html,powershell,css&amp;theme=github_dark&amp;bg_color=0d1117&amp;disable_animations=true" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&amp;layout=compact&amp;hide_border=true&amp;hide_title=true&amp;hide=html,powershell,css&amp;theme=default&amp;disable_animations=true" />
-          <img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&amp;layout=compact&amp;hide_border=true&amp;hide_title=true&amp;hide=html,powershell,css&amp;theme=default&amp;disable_animations=true" width="100%" />
-        </picture>
+        <img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&amp;layout=compact&amp;hide_border=true&amp;hide_title=true&amp;hide=html,powershell,css&amp;theme=transparent&amp;text_color=7d8590&amp;disable_animations=true" width="100%" />
       </a>
       <br /><br />
       <h4>Tech Stack</h4>
