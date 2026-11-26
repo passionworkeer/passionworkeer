@@ -103,26 +103,26 @@
     <tr>
       <td><strong>Nushell</strong></td>
       <td>Rust · shell</td>
-      <td>Fixed command-name validation, glob traversal/matching and time-zone offsets; updated the Chinese book</td>
-      <td>8</td>
+      <td>Fixed command-name validation, glob traversal/matching, time-zone offsets and Markdown table display-width alignment; updated CLI help text and the Chinese book</td>
+      <td>10</td>
     </tr>
     <tr>
       <td><strong>MCP Rust SDK</strong></td>
       <td>Rust · agent transport</td>
-      <td>Fixed Streamable HTTP media-type and Accept quality matching</td>
-      <td>1</td>
+      <td>Fixed Streamable HTTP media-type and Accept quality matching, and removed setter-order dependence in elicitation enum default validation</td>
+      <td>2</td>
     </tr>
     <tr>
       <td><strong>LightRAG</strong></td>
       <td>Python · RAG framework</td>
-      <td>Treated unreadable image-cache manifests as cache misses; preserved the query caret when the WebUI switches into multiline mode</td>
-      <td>2</td>
+      <td>Treated unreadable image-cache manifests as cache misses, skipped occupied timestamp archive filenames, and contributed regression coverage for the WebUI multiline caret fix</td>
+      <td>3</td>
     </tr>
     <tr>
       <td><strong>QwenPaw</strong></td>
       <td>Python · agent runtime</td>
-      <td>Improved plugin dependency-directory diagnostics in restricted deployments</td>
-      <td>1</td>
+      <td>Improved plugin dependency-directory diagnostics in restricted deployments, parsed gateway-reported status from error text, and guarded Feishu JSON extraction against non-object payloads</td>
+      <td>3</td>
     </tr>
     <tr>
       <td><strong>Apache OpenDAL</strong></td>
@@ -133,7 +133,7 @@
   </tbody>
 </table>
 
-<p class="meta"><strong>13 merged pull requests across these five projects, plus 5 contributions carried into maintainers' upstream fixes.</strong> <a href="https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer">All contributions</a></p>
+<p class="meta"><strong>19 merged pull requests across these five projects (22 merged upstream overall), plus 5 contributions carried into maintainers' upstream fixes.</strong> <a href="https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer">All contributions</a></p>
 
 <details>
   <summary>Contribution details</summary>
@@ -143,11 +143,17 @@
     <li>Nushell <a href="https://github.com/nushell/nushell/pull/19348">#19348</a> - experimental <code>dc-glob</code> traverses explicit relative paths.</li>
     <li>Nushell <a href="https://github.com/nushell/nushell/pull/19345">#19345</a> - reject command and alias names that the parser reads as numbers.</li>
     <li>Nushell <a href="https://github.com/nushell/nushell/pull/19434">#19434</a> - preserve time-zone offset seconds and reject malformed offsets.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19517">#19517</a> - describe the actual <code>input listen --raw</code> fields and <code>key_type</code> variants in help text.</li>
+    <li>Nushell <a href="https://github.com/nushell/nushell/pull/19536">#19536</a> - align <code>to md --pretty</code> columns by display width for CJK and wide characters.</li>
     <li>Nushell docs <a href="https://github.com/nushell/nushell.github.io/pull/2274">#2274</a>, <a href="https://github.com/nushell/nushell.github.io/pull/2276">#2276</a>, <a href="https://github.com/nushell/nushell.github.io/pull/2278">#2278</a>, <a href="https://github.com/nushell/nushell.github.io/pull/2284">#2284</a> - zh-CN book chapters, translations, examples and links.</li>
     <li>MCP Rust SDK <a href="https://github.com/modelcontextprotocol/rust-sdk/pull/1382">#1382</a> - Streamable HTTP matches explicit media types and <code>Accept</code> quality values.</li>
+    <li>MCP Rust SDK <a href="https://github.com/modelcontextprotocol/rust-sdk/pull/1455">#1455</a> - validate elicitation enum defaults against min/max items in any setter order.</li>
     <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4241">#4241</a> - invalid-UTF-8 native image-cache manifests no longer abort Markdown extraction.</li>
-    <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4272">#4272</a> - query composer keeps the caret when switching into multiline mode.</li>
+    <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4272">#4272</a> - query composer keeps the caret when switching into multiline mode (initial fix and regression tests; final hook implementation by maintainer).</li>
+    <li>LightRAG <a href="https://github.com/HKUDS/LightRAG/pull/4490">#4490</a> - skip occupied timestamp filenames when archiving documents.</li>
     <li>QwenPaw <a href="https://github.com/agentscope-ai/QwenPaw/pull/8527">#8527</a> - startup diagnostics for unusable plugin dependency directories.</li>
+    <li>QwenPaw <a href="https://github.com/agentscope-ai/QwenPaw/pull/8512">#8512</a> - read a gateway-reported status code from provider error text.</li>
+    <li>QwenPaw <a href="https://github.com/agentscope-ai/QwenPaw/pull/8913">#8913</a> - guard Feishu <code>extract_json_key</code> against non-object JSON content.</li>
     <li>Apache OpenDAL <a href="https://github.com/apache/opendal/pull/8429">#8429</a> - aborting a lazy Fs writer no longer truncates or creates the target file.</li>
   </ul>
   <p class="meta"><strong>Carried into upstream fixes</strong> (my PRs were closed unmerged, but the work landed)</p>
@@ -216,7 +222,7 @@
 </ul>
 
 <hr />
-<footer>Last updated: 2026-11-14 · Contribution facts mirror my <a href="https://github.com/passionworkeer/passionworkeer">GitHub profile README</a>.</footer>
+<footer>Last updated: 2026-11-26 · <a href="https://github.com/passionworkeer/passionworkeer">GitHub profile</a> · <a href="https://wangjianjun.xyz">Portfolio</a></footer>
 
 </body>
 </html>
