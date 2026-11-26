@@ -1,28 +1,73 @@
-<h1 align="center">Jianjun Wang · 王健俊</h1>
+### Hi, I'm Jianjun Wang · 王健俊 👋
 
-I enjoy building AI agents and backend systems, exploring developer tools, and making software more reliable. I'm currently a **Backend Development Intern at Tencent**.
+<a href="https://github.com/passionworkeer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=passionworkeer&show_icons=true&include_all_commits=true&theme=github_dark&bg_color=0d1117&hide_border=true&hide_title=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=passionworkeer&show_icons=true&include_all_commits=true&theme=default&hide_border=true&hide_title=true" />
+    <img align="right" width="400" alt="Jianjun Wang's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=passionworkeer&show_icons=true&include_all_commits=true&theme=default&hide_border=true&hide_title=true" />
+  </picture>
+</a>
 
-Recently, I've been actively [contributing to open source](https://github.com/pulls?q=is%3Apr+author%3Apassionworkeer+-user%3Apassionworkeer).
+I enjoy building AI agents and backend systems, exploring developer tools, and making software more reliable.
 
-### Experience
+- 💼 **Backend Development Intern** at **Tencent** *(Current)*
+- 🌱 Actively [contributing to open source](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Apassionworkeer+-user%3Apassionworkeer) (Nushell, LightRAG, QwenPaw, MCP Rust SDK, OpenDAL)
+- 🌐 Explore my work on [wangjianjun.xyz](https://wangjianjun.xyz) & [Writing](https://passionworkeer.github.io/passionworkeer/)
+- 📫 Reach me at [1782057720@163.com](mailto:1782057720@163.com)
+
+<br clear="both" />
+
+<table>
+  <tr>
+    <td valign="top" width="54%">
+      <h4>Experience</h4>
+      <p>
+        <img src="assets/logos/tencent.svg" alt="Tencent" width="70" align="absmiddle" />
+        &nbsp; <strong>Backend Development Intern</strong> · <em>Current</em><br />
+        <sub>Monitoring &amp; observability data services</sub>
+      </p>
+      <p>
+        <img src="assets/logos/kuaishou.svg" alt="Kuaishou" width="70" align="absmiddle" />
+        &nbsp; <strong>Agent Development Intern</strong><br />
+        <sub>Design agents, MCP &amp; evaluation</sub>
+      </p>
+      <p>
+        <img src="assets/logos/bananain.svg" alt="Bananain" width="70" align="absmiddle" />
+        &nbsp; <strong>AI Application Engineer</strong><br />
+        <sub>AIGC workflows, Photoshop plugins &amp; agents</sub>
+      </p>
+    </td>
+    <td valign="top" width="46%">
+      <h4>Most Used Languages</h4>
+      <a href="https://github.com/passionworkeer?tab=repositories">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&layout=compact&hide_border=true&hide_title=true&hide=html,powershell,css&theme=github_dark&bg_color=0d1117" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&layout=compact&hide_border=true&hide_title=true&hide=html,powershell,css&theme=default" />
+          <img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&layout=compact&hide_border=true&hide_title=true&hide=html,powershell,css&theme=default" width="100%" />
+        </picture>
+      </a>
+      <br /><br />
+      <h4>Tech Stack</h4>
+      <img src="https://skillicons.dev/icons?i=python,ts,rust,go,fastapi,nodejs,react,nextjs,redis,mysql,docker,git,githubactions,linux,figma,ps&amp;perline=8" alt="Python, TypeScript, Rust, Go, FastAPI, Node.js, React, Next.js, Redis, MySQL, Docker, Git, GitHub Actions, Linux, Figma, Photoshop" width="100%" />
+    </td>
+  </tr>
+</table>
+
+#### Top Repositories
 
 <p>
-  <img src="assets/logos/tencent.svg" alt="Tencent" width="88" align="absmiddle" />
-  &nbsp; <strong>Backend Development Intern</strong> · Monitoring &amp; observability · <em>Current</em>
-</p>
-
-<p>
-  <img src="assets/logos/kuaishou.svg" alt="Kuaishou" width="88" align="absmiddle" />
-  &nbsp; <strong>Agent Development Intern</strong> · Design agents &amp; evaluation
-</p>
-
-<p>
-  <img src="assets/logos/bananain.svg" alt="Bananain" width="88" align="absmiddle" />
-  &nbsp; <strong>AI Application Engineer</strong> · AIGC tools, Photoshop plugins &amp; enterprise agents
-</p>
-
-### Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,rust,go,fastapi,nodejs,react,nextjs,redis,mysql,docker,git,githubactions,linux,figma,ps&amp;perline=8" alt="Python, TypeScript, Rust, Go, FastAPI, Node.js, React, Next.js, Redis, MySQL, Docker, Git, GitHub Actions, Linux, Figma, Photoshop" width="440" />
+  <a href="https://github.com/passionworkeer/latex-resume-skill">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=latex-resume-skill&theme=github_dark&bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=latex-resume-skill&theme=default" />
+      <img alt="latex-resume-skill" src="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=latex-resume-skill&theme=default" width="49%" />
+    </picture>
+  </a>
+  <a href="https://github.com/passionworkeer/obsidian-shared-memory-bus">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=obsidian-shared-memory-bus&theme=github_dark&bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=obsidian-shared-memory-bus&theme=default" />
+      <img alt="obsidian-shared-memory-bus" src="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=obsidian-shared-memory-bus&theme=default" width="49%" />
+    </picture>
+  </a>
 </p>
