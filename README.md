@@ -2,9 +2,9 @@
 
 <a href="https://github.com/passionworkeer">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=passionworkeer&show_icons=true&include_all_commits=true&theme=github_dark&bg_color=0d1117&hide_border=true&hide_title=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=passionworkeer&show_icons=true&include_all_commits=true&theme=default&hide_border=true&hide_title=true" />
-    <img align="right" width="400" alt="Jianjun Wang's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=passionworkeer&show_icons=true&include_all_commits=true&theme=default&hide_border=true&hide_title=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=passionworkeer&amp;show_icons=true&amp;theme=github_dark&amp;bg_color=0d1117&amp;hide_border=true&amp;hide_title=true&amp;disable_animations=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=passionworkeer&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;hide_title=true&amp;disable_animations=true" />
+    <img align="right" width="400" alt="Jianjun Wang's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=passionworkeer&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;hide_title=true&amp;disable_animations=true" />
   </picture>
 </a>
 
@@ -41,9 +41,9 @@ I enjoy building AI agents and backend systems, exploring developer tools, and m
       <h4>Most Used Languages</h4>
       <a href="https://github.com/passionworkeer?tab=repositories">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&layout=compact&hide_border=true&hide_title=true&hide=html,powershell,css&theme=github_dark&bg_color=0d1117" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&layout=compact&hide_border=true&hide_title=true&hide=html,powershell,css&theme=default" />
-          <img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&layout=compact&hide_border=true&hide_title=true&hide=html,powershell,css&theme=default" width="100%" />
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&amp;layout=compact&amp;hide_border=true&amp;hide_title=true&amp;hide=html,powershell,css&amp;theme=github_dark&amp;bg_color=0d1117&amp;disable_animations=true" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&amp;layout=compact&amp;hide_border=true&amp;hide_title=true&amp;hide=html,powershell,css&amp;theme=default&amp;disable_animations=true" />
+          <img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=passionworkeer&amp;layout=compact&amp;hide_border=true&amp;hide_title=true&amp;hide=html,powershell,css&amp;theme=default&amp;disable_animations=true" width="100%" />
         </picture>
       </a>
       <br /><br />
@@ -58,16 +58,16 @@ I enjoy building AI agents and backend systems, exploring developer tools, and m
 <p>
   <a href="https://github.com/passionworkeer/latex-resume-skill">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=latex-resume-skill&theme=github_dark&bg_color=0d1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=latex-resume-skill&theme=default" />
-      <img alt="latex-resume-skill" src="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=latex-resume-skill&theme=default" width="49%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&amp;repo=latex-resume-skill&amp;theme=github_dark&amp;bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&amp;repo=latex-resume-skill&amp;theme=default" />
+      <img alt="latex-resume-skill" src="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&amp;repo=latex-resume-skill&amp;theme=default" width="49%" />
     </picture>
   </a>
   <a href="https://github.com/passionworkeer/obsidian-shared-memory-bus">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=obsidian-shared-memory-bus&theme=github_dark&bg_color=0d1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=obsidian-shared-memory-bus&theme=default" />
-      <img alt="obsidian-shared-memory-bus" src="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&repo=obsidian-shared-memory-bus&theme=default" width="49%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&amp;repo=obsidian-shared-memory-bus&amp;theme=github_dark&amp;bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&amp;repo=obsidian-shared-memory-bus&amp;theme=default" />
+      <img alt="obsidian-shared-memory-bus" src="https://github-readme-stats.vercel.app/api/pin/?username=passionworkeer&amp;repo=obsidian-shared-memory-bus&amp;theme=default" width="49%" />
     </picture>
   </a>
 </p>
