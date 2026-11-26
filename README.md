@@ -54,16 +54,16 @@ I enjoy building AI agents and backend systems, exploring developer tools, and m
 <p>
   <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Apassionworkeer+org%3Anushell">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=nushell&amp;repo=nushell&amp;show_owner=true&amp;theme=github_dark&amp;bg_color=0d1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=nushell&amp;repo=nushell&amp;show_owner=true&amp;theme=default" />
-      <img alt="nushell/nushell" src="https://github-readme-stats.vercel.app/api/pin/?username=nushell&amp;repo=nushell&amp;show_owner=true&amp;theme=default" width="49%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=nushell&amp;repo=nushell&amp;show_owner=true&amp;description_lines_count=2&amp;theme=github_dark&amp;bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=nushell&amp;repo=nushell&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" />
+      <img alt="nushell/nushell" src="https://github-readme-stats.vercel.app/api/pin/?username=nushell&amp;repo=nushell&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" width="49%" />
     </picture>
   </a>
   <a href="https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+is%3Amerged+author%3Apassionworkeer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&amp;repo=LightRAG&amp;show_owner=true&amp;theme=github_dark&amp;bg_color=0d1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&amp;repo=LightRAG&amp;show_owner=true&amp;theme=default" />
-      <img alt="HKUDS/LightRAG" src="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&amp;repo=LightRAG&amp;show_owner=true&amp;theme=default" width="49%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&amp;repo=LightRAG&amp;show_owner=true&amp;description_lines_count=2&amp;theme=github_dark&amp;bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&amp;repo=LightRAG&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" />
+      <img alt="HKUDS/LightRAG" src="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&amp;repo=LightRAG&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" width="49%" />
     </picture>
   </a>
 </p>
@@ -71,16 +71,16 @@ I enjoy building AI agents and backend systems, exploring developer tools, and m
 <p>
   <a href="https://github.com/agentscope-ai/QwenPaw/pulls?q=is%3Apr+is%3Amerged+author%3Apassionworkeer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=agentscope-ai&amp;repo=QwenPaw&amp;show_owner=true&amp;theme=github_dark&amp;bg_color=0d1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=agentscope-ai&amp;repo=QwenPaw&amp;show_owner=true&amp;theme=default" />
-      <img alt="agentscope-ai/QwenPaw" src="https://github-readme-stats.vercel.app/api/pin/?username=agentscope-ai&amp;repo=QwenPaw&amp;show_owner=true&amp;theme=default" width="49%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=agentscope-ai&amp;repo=QwenPaw&amp;show_owner=true&amp;description_lines_count=2&amp;theme=github_dark&amp;bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=agentscope-ai&amp;repo=QwenPaw&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" />
+      <img alt="agentscope-ai/QwenPaw" src="https://github-readme-stats.vercel.app/api/pin/?username=agentscope-ai&amp;repo=QwenPaw&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" width="49%" />
     </picture>
   </a>
   <a href="https://github.com/apache/opendal/pulls?q=is%3Apr+is%3Amerged+author%3Apassionworkeer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=apache&amp;repo=opendal&amp;show_owner=true&amp;theme=github_dark&amp;bg_color=0d1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=apache&amp;repo=opendal&amp;show_owner=true&amp;theme=default" />
-      <img alt="apache/opendal" src="https://github-readme-stats.vercel.app/api/pin/?username=apache&amp;repo=opendal&amp;show_owner=true&amp;theme=default" width="49%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=apache&amp;repo=opendal&amp;show_owner=true&amp;description_lines_count=2&amp;theme=github_dark&amp;bg_color=0d1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=apache&amp;repo=opendal&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" />
+      <img alt="apache/opendal" src="https://github-readme-stats.vercel.app/api/pin/?username=apache&amp;repo=opendal&amp;show_owner=true&amp;description_lines_count=2&amp;theme=default" width="49%" />
     </picture>
   </a>
 </p>
